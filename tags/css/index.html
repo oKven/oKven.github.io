@@ -88,16 +88,17 @@
 
 
 
-<meta name="description" content="zhangyihao个人站，主要涉及前端知识共享、实践教程、前沿技术共同学习等方面">
+<meta name="description" content="主要涉及前端知识共享、实践教程、前沿技术共同学习等方面">
+<meta name="keywords" content="web前端">
 <meta property="og:type" content="website">
 <meta property="og:title" content="隔山望山">
 <meta property="og:url" content="https://okven.github.io/tags/css/index.html">
 <meta property="og:site_name" content="隔山望山">
-<meta property="og:description" content="zhangyihao个人站，主要涉及前端知识共享、实践教程、前沿技术共同学习等方面">
+<meta property="og:description" content="主要涉及前端知识共享、实践教程、前沿技术共同学习等方面">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="隔山望山">
-<meta name="twitter:description" content="zhangyihao个人站，主要涉及前端知识共享、实践教程、前沿技术共同学习等方面">
+<meta name="twitter:description" content="主要涉及前端知识共享、实践教程、前沿技术共同学习等方面">
 
 
 
@@ -376,8 +377,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">zhangyihao</p>
-              <p class="site-description motion-element" itemprop="description">zhangyihao个人站，主要涉及前端知识共享、实践教程、前沿技术共同学习等方面</p>
+              <img class="site-author-image" itemprop="image" src="/images/shan.jpg" alt="Zhang Yihao">
+            
+              <p class="site-author-name" itemprop="name">Zhang Yihao</p>
+              <p class="site-description motion-element" itemprop="description">主要涉及前端知识共享、实践教程、前沿技术共同学习等方面</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -387,7 +390,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -398,7 +401,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -409,7 +412,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -441,6 +444,18 @@
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
                 
+                  <span class="links-of-author-item">
+                    <a href="https://blog.csdn.net/qq_40413396" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-skype"></i>CSDN</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.facebook.com/yourname" target="_blank" title="FB Page">
+                      
+                        <i class="fa fa-fw fa-facebook"></i>FB Page</a>
+                  </span>
+                
             </div>
           
 
@@ -469,11 +484,12 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">zhangyihao</span>
+  <span class="author" itemprop="copyrightHolder">Zhang Yihao</span>
 
   
     <span class="post-meta-divider">|</span>
@@ -488,7 +504,7 @@
 
       <span class="post-meta-item-text">博客全站&#58;</span>
     
-    <span title="Site words total count">95字</span>
+    <span title="Site words total count">6k字</span>
   
 
 
@@ -689,7 +705,7 @@
         notify: false,
         appId: 'Rnhr67yHgPVBvSk7sUNMhzK2-gzGzoHsz',
         appKey: 'RLxBYJoLPeMzU4kByORgqv40',
-        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        placeholder: 'ヾﾉ≧∀≦)o    文章仅代表个人观点，留下您的宝贵建议!',
         avatar:'mm',
         guest_info:guest,
         pageSize:'10' || 10,
@@ -1024,6 +1040,113 @@
   
 
   
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("Rnhr67yHgPVBvSk7sUNMhzK2-gzGzoHsz", "RLxBYJoLPeMzU4kByORgqv40");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
 
   
 
@@ -1037,4 +1160,5 @@
   
 
 </body>
+<script type="text/javascript">/*7Core-CN - 网页鼠标点击特效（爱心）*/ !function (e, t, a) {function r() {for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");requestAnimationFrame(r)}function n() {var t = "function" == typeof e.onclick && e.onclick;e.onclick = function (e) {t && t(), o(e)}}function o(e) {var a = t.createElement("div");a.className = "heart", s.push({el: a,x: e.clientX - 5,y: e.clientY - 5,scale: 1,alpha: 1,color: c()}), t.body.appendChild(a)}function i(e) {var a = t.createElement("style");a.type = "text/css";try {a.appendChild(t.createTextNode(e))} catch (t) {a.styleSheet.cssText = e}t.getElementsByTagName("head")[0].appendChild(a)}function c() {return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"}var s = [];e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {setTimeout(e, 1e3 / 60)}, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()}(window, document);</script>
 </html>

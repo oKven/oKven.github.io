@@ -6,15 +6,416 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-13T17:17:35.588Z</updated>
+  <updated>2018-12-14T08:44:12.742Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
-    <name>zhangyihao</name>
+    <name>Zhang Yihao</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>烦人的广告</title>
+    <link href="https://okven.github.io/2018/12/14/%E7%83%A6%E4%BA%BA%E7%9A%84%E5%B9%BF%E5%91%8A/"/>
+    <id>https://okven.github.io/2018/12/14/烦人的广告/</id>
+    <published>2018-12-14T08:35:15.000Z</published>
+    <updated>2018-12-14T08:44:12.742Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;p&gt;让烦人的广告滚出我们的界面-码农的路上，纵情向前！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;1-现像&quot;&gt;&lt;a href=&quot;#1-现像&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="烦人的广告" scheme="https://okven.github.io/tags/%E7%83%A6%E4%BA%BA%E7%9A%84%E5%B9%BF%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iphone时间格式的支持</title>
+    <link href="https://okven.github.io/2018/12/14/iphone%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%94%AF%E6%8C%81/"/>
+    <id>https://okven.github.io/2018/12/14/iphone时间格式的支持/</id>
+    <published>2018-12-14T08:31:27.000Z</published>
+    <updated>2018-12-14T08:33:14.658Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;今天带给大家的是 html中 safari的 new Date的时间格式支持问题&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;当前苹果的手机端对 时间格式支持不包括  “yyyy-mm-dd” ,
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="time" scheme="https://okven.github.io/tags/time/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6块级作用域的优点</title>
+    <link href="https://okven.github.io/2018/12/14/ES6%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E4%BC%98%E7%82%B9/"/>
+    <id>https://okven.github.io/2018/12/14/ES6块级作用域的优点/</id>
+    <published>2018-12-14T08:22:53.000Z</published>
+    <updated>2018-12-14T08:27:37.806Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;p&gt;我们都知道在ES6中新增加了一个块级作用域，块级作用域相对于ES5的全局与局部作用局的优势在哪？&lt;br&gt;———————–先看es5的全局 和 局部 作用域的弊端。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、内层变量可能会覆盖外层变量。-代码验证一下：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="es6" scheme="https://okven.github.io/tags/es6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>angularJs--02</title>
+    <link href="https://okven.github.io/2018/12/14/angularJs-02/"/>
+    <id>https://okven.github.io/2018/12/14/angularJs-02/</id>
+    <published>2018-12-14T08:16:41.000Z</published>
+    <updated>2018-12-14T08:21:47.254Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;em&gt;快速的angular的项目。今天分享的是angular路由的二级嵌套，可以理解为深层嵌套，我用到了ui-route，顺便在这发一下cdn，方便使用。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="angularJs" scheme="https://okven.github.io/categories/angularJs/"/>
+    
+    
+      <category term="angularJs" scheme="https://okven.github.io/tags/angularJs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>angularJs--01</title>
+    <link href="https://okven.github.io/2018/12/14/angularJs--01/"/>
+    <id>https://okven.github.io/2018/12/14/angularJs--01/</id>
+    <published>2018-12-14T08:12:52.000Z</published>
+    <updated>2018-12-14T08:15:41.974Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;em&gt;今天看到有人在论坛里问有没有Angular的实战项目，接触实战项目成长快，积累经验没什么错，我特别想说一句Angualr的官方tutorial看过吗？这里面就介绍的很详细从配置到服务到解答。我在这儿发一下网址：&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="angularJs" scheme="https://okven.github.io/tags/angularJs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gulp自动化构建工具</title>
+    <link href="https://okven.github.io/2018/12/14/gulp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
+    <id>https://okven.github.io/2018/12/14/gulp自动化构建工具/</id>
+    <published>2018-12-14T08:00:42.000Z</published>
+    <updated>2018-12-14T08:11:11.398Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;首先，肯定是需要下载安装node-js的。安装完成之后我们可以在操作命令行来查看版本号。&quot;&gt;&lt;a href=&quot;#首先，肯定是需要下载安装node-js的。安装完成之后我们可以在操作命令行来查看版本号。&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="gulp" scheme="https://okven.github.io/tags/gulp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jsDoc文档自动化生成</title>
+    <link href="https://okven.github.io/2018/12/14/jsDoc%E6%96%87%E6%A1%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E7%94%9F%E6%88%90/"/>
+    <id>https://okven.github.io/2018/12/14/jsDoc文档自动化生成/</id>
+    <published>2018-12-14T07:55:01.000Z</published>
+    <updated>2018-12-14T07:59:12.064Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;em&gt;​​十分推荐，编辑代码的时候有写注释的习惯，后期直接自动生成文档，不用劳神费力的一点找一点写。 前期工作还是配置环境， 下载JDK 配置变量等等就不提了， 我是用的grunt软件来配合项目使用的 ， 压缩 编译 格式化  文档自动化 ， 很方便。
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="jsDoc" scheme="https://okven.github.io/tags/jsDoc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mailto的用法及attach附件测试结果。</title>
+    <link href="https://okven.github.io/2018/12/14/mailto%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8Aattach%E9%99%84%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E3%80%82/"/>
+    <id>https://okven.github.io/2018/12/14/mailto的用法及attach附件测试结果。/</id>
+    <published>2018-12-14T07:46:46.000Z</published>
+    <updated>2018-12-14T07:53:15.523Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;em&gt;mailto是一个发送电子邮件非常方便的方法，功能上面也是能满足正常的使用。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;headerlink&quot; title=&quot;格式&quot;&gt;&lt;/a&gt;格式&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="mailto疑点" scheme="https://okven.github.io/categories/mailto%E7%96%91%E7%82%B9/"/>
+    
+    
+      <category term="mailto" scheme="https://okven.github.io/tags/mailto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在关于mailto的使用中，关于url长度出现超长的问题</title>
+    <link href="https://okven.github.io/2018/12/14/%E5%9C%A8%E5%85%B3%E4%BA%8Emailto%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%AD%EF%BC%8C%E5%85%B3%E4%BA%8Eurl%E9%95%BF%E5%BA%A6%E5%87%BA%E7%8E%B0%E8%B6%85%E9%95%BF%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/</id>
+    <published>2018-12-14T07:42:08.000Z</published>
+    <updated>2018-12-14T07:53:15.526Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#搜索过程中发现，各浏览器与各Web Server对URL均有长度的限制如下：&lt;/p&gt;
+&lt;h2 id=&quot;一、IE&quot;&gt;&lt;a href=&quot;#一、IE&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="mailto疑点" scheme="https://okven.github.io/categories/mailto%E7%96%91%E7%82%B9/"/>
+    
+    
+      <category term="mailto" scheme="https://okven.github.io/tags/mailto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分享两个地图框架</title>
+    <link href="https://okven.github.io/2018/12/14/%E5%88%86%E4%BA%AB%E4%B8%A4%E4%B8%AA%E5%9C%B0%E5%9B%BE%E6%A1%86%E6%9E%B6/"/>
+    <id>https://okven.github.io/2018/12/14/分享两个地图框架/</id>
+    <published>2018-12-14T07:38:15.000Z</published>
+    <updated>2018-12-14T08:29:59.771Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;leaflet&quot;&gt;&lt;a href=&quot;#leaflet&quot; class=&quot;headerlink&quot; title=&quot;leaflet&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leafletjs.com/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="leaflet.js" scheme="https://okven.github.io/tags/leaflet-js/"/>
+    
+      <category term="turf.js" scheme="https://okven.github.io/tags/turf-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JQ的插件编写以及个人经历过需要注意的地方</title>
+    <link href="https://okven.github.io/2018/12/14/JQ%E7%9A%84%E6%8F%92%E4%BB%B6%E7%BC%96%E5%86%99%E4%BB%A5%E5%8F%8A%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86%E8%BF%87%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/"/>
+    <id>https://okven.github.io/2018/12/14/JQ的插件编写以及个人经历过需要注意的地方/</id>
+    <published>2018-12-14T07:26:31.000Z</published>
+    <updated>2018-12-14T07:36:45.620Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="jquery" scheme="https://okven.github.io/tags/jquery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IsValid函数基本用法</title>
+    <link href="https://okven.github.io/2018/12/14/IsValid%E5%87%BD%E6%95%B0%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/"/>
+    <id>https://okven.github.io/2018/12/14/IsValid函数基本用法/</id>
+    <published>2018-12-14T07:21:33.000Z</published>
+    <updated>2018-12-14T07:25:17.611Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;p&gt;&lt;em&gt;检查对象变量是否已经实例化，即实例变量的值是否是个有效的对象。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;语法&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="js" scheme="https://okven.github.io/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移动端input获取焦点弹出输入板从而影响position定位的问题</title>
+    <link href="https://okven.github.io/2018/12/14/%E7%A7%BB%E5%8A%A8%E7%AB%AFinput%E8%8E%B7%E5%8F%96%E7%84%A6%E7%82%B9%E5%BC%B9%E5%87%BA%E8%BE%93%E5%85%A5%E6%9D%BF%E4%BB%8E%E8%80%8C%E5%BD%B1%E5%93%8Dposition%E5%AE%9A%E4%BD%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://okven.github.io/2018/12/14/移动端input获取焦点弹出输入板从而影响position定位的问题/</id>
+    <published>2018-12-14T07:16:30.000Z</published>
+    <updated>2018-12-14T07:20:11.912Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;移动端里面常常会遇到-需要填值得输入框-这个输入框获取焦点之后，从而弹出输入板打字输入。-这时候弹出的输入板会影响到页面的底部布局-（底部用position定位）。我亲测了一个小简便方法来消除这种影响。&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="移动端" scheme="https://okven.github.io/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+    
+    
+      <category term="input" scheme="https://okven.github.io/tags/input/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小程序页面之间跳转的方式</title>
+    <link href="https://okven.github.io/2018/12/14/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E4%B9%8B%E9%97%B4%E8%B7%B3%E8%BD%AC%E7%9A%84%E6%96%B9%E5%BC%8F/"/>
+    <id>https://okven.github.io/2018/12/14/小程序页面之间跳转的方式/</id>
+    <published>2018-12-14T06:09:22.000Z</published>
+    <updated>2018-12-14T07:22:36.514Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;先导&quot;&gt;&lt;a href=&quot;#先导&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>newBolg</title>
+    <link href="https://okven.github.io/2018/12/14/newBolg/"/>
+    <id>https://okven.github.io/2018/12/14/newBolg/</id>
+    <published>2018-12-14T06:03:30.000Z</published>
+    <updated>2018-12-14T06:06:21.077Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://okven.github.io/&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
