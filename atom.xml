@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-14T08:44:12.742Z</updated>
+  <updated>2018-12-17T02:01:51.529Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小程序切换主题配色</title>
+    <link href="https://okven.github.io/2018/12/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%88%87%E6%8D%A2%E4%B8%BB%E9%A2%98%E9%85%8D%E8%89%B2/"/>
+    <id>https://okven.github.io/2018/12/17/小程序切换主题配色/</id>
+    <published>2018-12-17T01:46:47.000Z</published>
+    <updated>2018-12-17T02:01:51.529Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;相信大家一定会遇到小程序的主题配色问题，今天分享的内容主要就是如何根据自己的配置切换主题配色配图&quot;&gt;&lt;a href=&quot;#相信大家一定会遇到小程序的主题配色问题，今天分享的内容主要就是如何根据自己的配置切换主题配色配图&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="主题" scheme="https://okven.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>inputFile上传图片并显示</title>
+    <link href="https://okven.github.io/2018/12/17/inputFile%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%B9%B6%E6%98%BE%E7%A4%BA/"/>
+    <id>https://okven.github.io/2018/12/17/inputFile上传图片并显示/</id>
+    <published>2018-12-17T01:42:07.000Z</published>
+    <updated>2018-12-17T01:45:14.534Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;input-上传图片-并将上传的图片加载显示&quot;&gt;&lt;a href=&quot;#input-上传图片-并将上传的图片加载显示&quot; class=&quot;headerlink&quot; title=&quot;input 上传图片 并将上传的图片加载显示&quot;&gt;&lt;/a&gt;input 上传图片
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="input" scheme="https://okven.github.io/tags/input/"/>
+    
+  </entry>
   
   <entry>
     <title>烦人的广告</title>
@@ -374,7 +426,7 @@
     <link href="https://okven.github.io/2018/12/14/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E4%B9%8B%E9%97%B4%E8%B7%B3%E8%BD%AC%E7%9A%84%E6%96%B9%E5%BC%8F/"/>
     <id>https://okven.github.io/2018/12/14/小程序页面之间跳转的方式/</id>
     <published>2018-12-14T06:09:22.000Z</published>
-    <updated>2018-12-14T07:22:36.514Z</updated>
+    <updated>2018-12-17T02:04:18.926Z</updated>
     
     <summary type="html">
     
@@ -388,7 +440,7 @@
     
     </summary>
     
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
     
       <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
