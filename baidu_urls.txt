@@ -1,3 +1,4 @@
+https://okven.github.io/2018/12/17/用哈希值匹配替换大量的if-else引用/
 https://okven.github.io/2018/12/17/固定背景图片/
 https://okven.github.io/2018/12/17/angular中用js语言的问题/
 https://okven.github.io/2018/12/17/小程序切换主题配色/

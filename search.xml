@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[用哈希值匹配替换大量的if-else引用]]></title>
+    <url>%2F2018%2F12%2F17%2F%E7%94%A8%E5%93%88%E5%B8%8C%E5%80%BC%E5%8C%B9%E9%85%8D%E6%9B%BF%E6%8D%A2%E5%A4%A7%E9%87%8F%E7%9A%84if-else%E5%BC%95%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[遇到需要写很多if…else…的情况，或许可以考虑如下的哈希字典匹配的方法，或者用状态模式实现需要修改的代码123456789//if...else...方法 /* var itemTypeStr = ''; if(rowdata.itemType == '1')&#123; itemTypeStr = '行政许可'; &#125;else if(rowdata.itemType == '2')&#123; itemTypeStr = '非行政许可'; &#125;else if(rowdata.itemType == '3')&#123; itemTypeStr = '公共服务事项'; &#125; */ 可以修改到下面的形式12345678910111213141516171819202122var itemTypeReg = &#123; '0':'', '1':'行政许可', '2':'非行政许可', '3':'公共服务事项', '4':'备案', '5':'其他', '6':'行政征收', '7':'行政确认', '8':'行政年检', '9':'其他行政权力', '10':'行政处罚', '11':'行政强制', '12':'行政给付', '13':'行政检查', '14':'行政奖励', '15':'行政裁决'&#125;var itemType = rowdata.itemType;//itemType为1~15的数，哈希匹配的方法，例子仅供参考itemType = itemTypeReg[itemType];return itemType;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[固定背景图片]]></title>
     <url>%2F2018%2F12%2F17%2F%E5%9B%BA%E5%AE%9A%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%2F</url>
     <content type="text"><![CDATA[固定背景图片Div的背景图固定在视窗内（看似是固定于body） 无论滚动条上下如何滑动始终是固定的1234 background-repeat: no-repeat; background-size: cover; background-position: top; background-attachment: fixed; ****** 重要 fixed]]></content>

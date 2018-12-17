@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-17T02:18:23.328Z</updated>
+  <updated>2018-12-17T12:20:29.848Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用哈希值匹配替换大量的if-else引用</title>
+    <link href="https://okven.github.io/2018/12/17/%E7%94%A8%E5%93%88%E5%B8%8C%E5%80%BC%E5%8C%B9%E9%85%8D%E6%9B%BF%E6%8D%A2%E5%A4%A7%E9%87%8F%E7%9A%84if-else%E5%BC%95%E7%94%A8/"/>
+    <id>https://okven.github.io/2018/12/17/用哈希值匹配替换大量的if-else引用/</id>
+    <published>2018-12-17T12:18:50.000Z</published>
+    <updated>2018-12-17T12:20:29.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;遇到需要写很多if…else…的情况，或许可以考虑如下的哈希字典匹配的方法，或者用状态模式实现&quot;&gt;&lt;a href=&quot;#遇到需要写很多if…else…的情况，或许可以考虑如下的哈希字典匹配的方法，或者用状态模式实现&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>固定背景图片</title>
@@ -517,24 +539,6 @@
       
     
     </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://okven.github.io/2018/12/14/hello-world/"/>
-    <id>https://okven.github.io/2018/12/14/hello-world/</id>
-    <published>2018-12-13T17:17:35.588Z</published>
-    <updated>2018-12-13T17:17:35.588Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
   </entry>
