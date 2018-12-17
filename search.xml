@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[固定背景图片]]></title>
+    <url>%2F2018%2F12%2F17%2F%E5%9B%BA%E5%AE%9A%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"><![CDATA[固定背景图片Div的背景图固定在视窗内（看似是固定于body） 无论滚动条上下如何滑动始终是固定的1234 background-repeat: no-repeat; background-size: cover; background-position: top; background-attachment: fixed; ****** 重要 fixed]]></content>
+      <categories>
+        <category>web前端</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[angular中用js语言的问题]]></title>
+    <url>%2F2018%2F12%2F17%2Fangular%E4%B8%AD%E7%94%A8js%E8%AF%AD%E8%A8%80%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[今天分享一下最近遇到的一个问题用 angular 前端框架为应用登录新增图形验证码认证，由于没有现成的插件，于是便使用canvas+js操作，也是可以正常使用，但是在编译阶段却有个报错：12ERROR in src/app/login/login.component.ts(84,19): error TS2339:Property 'getContext' does not exist on type 'HTMLElement'. 虽然报错，但是确实可以正常执行，很是奇怪。报错的代码为： 12let c = document.getElementById("myCanvas") ;let ctx = c.getContext("2d"); 查看源码是有 getContext() 这个方法的。后面想是不是类型导致的呢，于是，使用类型断言（不影响代码运行，只是在编译阶段起作用）修改代码入下： 12let c = document.getElementById("myCanvas") as HTMLCanvasElement;let ctx = c.getContext("2d"); 编译正常通过。后面了解，还有另外一种断言方式： 12let c = &lt;HTMLCanvasElement&gt; document.getElementById("myCanvas") ;let ctx = c.getContext("2d"); 以上均可编译通过，因为 getContext() 是在 HTMLCanvasElement 中定义的，因此，我们需要指定类型。]]></content>
+      <categories>
+        <category>Angular</category>
+      </categories>
+      <tags>
+        <tag>Angular js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[小程序切换主题配色]]></title>
     <url>%2F2018%2F12%2F17%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%88%87%E6%8D%A2%E4%B8%BB%E9%A2%98%E9%85%8D%E8%89%B2%2F</url>
     <content type="text"><![CDATA[相信大家一定会遇到小程序的主题配色问题，今天分享的内容主要就是如何根据自己的配置切换主题配色配图1、确定好需要修改的部分，配置主题123456789101112131415161718// 可以配置在app.js里面 也可以配置在外层框架 在这里我是配置在app.js然后全局储存了globalData: &#123; userInfo: null, // 主题配色配置 theme:&#123; //顶部配色 navigationBarColor:"#df4ecd", //图标配色 images:[ "../../images/addShop.png", "../../images/yuyue.png" ], // body 中含有亮粉的字体配色 ex: 产品活动价格 98 bodyFontColor:"#df4ecd", // 各个栏目标题配色 ex: 活动产品 人员推荐 等 titleColor:"#e67dd8" &#125;&#125; 现在主题配置一目了然，然后进行数据绑定，可以通过修改如上配置进行全局的主题修改 2、修改顶部主题NavigationBarColor配色wx.setNavigationBarColor 12345678wx.setNavigationBarColor(&#123; frontColor: '#ffffff', // 必写项 backgroundColor: app.globalData.theme.navigationBarColor, // 必写项 对应如上配置 animation: &#123; // 可选项 duration: 400, timingFunc: 'easeIn' &#125;&#125;) 3、绑定page中各个需要变化的在这里我做了 图片的切换 文字字体颜色的切换 12345678//page js 的配置Page(&#123; data: &#123; addImg:app.globalData.theme.images[0], yyImg: app.globalData.theme.images[1], fontColor: app.globalData.theme.bodyFontColor, titleColor: app.globalData.theme.titleColor &#125; 12345//wxml 的绑定&lt;view class='tabHeaderLine' style='background:&#123;&#123;fontColor&#125;&#125;'&gt;&lt;/view&gt;&lt;text style='color:&#123;&#123;titleColor&#125;&#125;'&gt;优惠券领取&lt;/text&gt;&lt;image class='addShop' src='&#123;&#123;addImg&#125;&#125;' /&gt;&lt;image class='yuyue' src='&#123;&#123;yyImg&#125;&#125;' /&gt; 绑定之后 就可以试一下了 修改最上面的配置进行小程序的主题配色替换吧 哦 对了 如果有需要替换tabBar的配色的 可以根据小程序官方API就行替换 很详细的]]></content>
@@ -14,7 +36,7 @@
   <entry>
     <title><![CDATA[inputFile上传图片并显示]]></title>
     <url>%2F2018%2F12%2F17%2FinputFile%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%B9%B6%E6%98%BE%E7%A4%BA%2F</url>
-    <content type="text"><![CDATA[input 上传图片 并将上传的图片加载显示###闲话不多说 直接撸代码 HTML部分12&lt;img id="gzzImg" src="images/common/add.png" /&gt;&lt;input id="gzzIpt" class="fileIpt" type="file" onchange="loadImg()"/&gt; js部分123456789101112131415161718192021function loadImg()&#123; //获取文件 var file =document.getElementById("gzzIpt").files[0]; //创建读取文件的对象 var reader = new FileReader(); //创建文件读取相关的变量 var imgFile; //为文件读取成功设置事件 reader.onload=function(e) &#123;// alert('文件读取完成'); imgFile = e.target.result; console.log(imgFile); $("#gzzImg").attr('src', imgFile); &#125;; //正式读取文件 reader.readAsDataURL(file);&#125;]]></content>
+    <content type="text"><![CDATA[input 上传图片 并将上传的图片加载显示闲话不多说 直接撸代码HTML部分12&lt;img id="gzzImg" src="images/common/add.png" /&gt;&lt;input id="gzzIpt" class="fileIpt" type="file" onchange="loadImg()"/&gt; js部分123456789101112131415161718192021function loadImg()&#123; //获取文件 var file =document.getElementById("gzzIpt").files[0]; //创建读取文件的对象 var reader = new FileReader(); //创建文件读取相关的变量 var imgFile; //为文件读取成功设置事件 reader.onload=function(e) &#123;// alert('文件读取完成'); imgFile = e.target.result; console.log(imgFile); $("#gzzImg").attr('src', imgFile); &#125;; //正式读取文件 reader.readAsDataURL(file);&#125;]]></content>
       <categories>
         <category>web前端</category>
       </categories>

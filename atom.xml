@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-17T02:01:51.529Z</updated>
+  <updated>2018-12-17T02:18:23.328Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>固定背景图片</title>
+    <link href="https://okven.github.io/2018/12/17/%E5%9B%BA%E5%AE%9A%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/"/>
+    <id>https://okven.github.io/2018/12/17/固定背景图片/</id>
+    <published>2018-12-17T02:17:14.000Z</published>
+    <updated>2018-12-17T02:18:23.328Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;固定背景图片&quot;&gt;&lt;a href=&quot;#固定背景图片&quot; class=&quot;headerlink&quot; title=&quot;固定背景图片&quot;&gt;&lt;/a&gt;固定背景图片&lt;/h2&gt;&lt;h3 id=&quot;Div的背景图固定在视窗内（看似是固定于body）-无论滚动条上下如何滑动始终是固定的&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="css" scheme="https://okven.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>angular中用js语言的问题</title>
+    <link href="https://okven.github.io/2018/12/17/angular%E4%B8%AD%E7%94%A8js%E8%AF%AD%E8%A8%80%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://okven.github.io/2018/12/17/angular中用js语言的问题/</id>
+    <published>2018-12-17T02:12:08.000Z</published>
+    <updated>2018-12-17T02:15:50.554Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;今天分享一下最近遇到的一个问题&quot;&gt;&lt;a href=&quot;#今天分享一下最近遇到的一个问题&quot; class=&quot;headerlink&quot; title=&quot;今天分享一下最近遇到的一个问题&quot;&gt;&lt;/a&gt;今天分享一下最近遇到的一个问题&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="Angular" scheme="https://okven.github.io/categories/Angular/"/>
+    
+    
+      <category term="Angular js" scheme="https://okven.github.io/tags/Angular-js/"/>
+    
+  </entry>
   
   <entry>
     <title>小程序切换主题配色</title>
@@ -47,7 +99,7 @@
     <link href="https://okven.github.io/2018/12/17/inputFile%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%B9%B6%E6%98%BE%E7%A4%BA/"/>
     <id>https://okven.github.io/2018/12/17/inputFile上传图片并显示/</id>
     <published>2018-12-17T01:42:07.000Z</published>
-    <updated>2018-12-17T01:45:14.534Z</updated>
+    <updated>2018-12-17T02:11:06.408Z</updated>
     
     <summary type="html">
     
@@ -484,32 +536,6 @@
     
       <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>filename</title>
-    <link href="https://okven.github.io/2018/12/13/filename/"/>
-    <id>https://okven.github.io/2018/12/13/filename/</id>
-    <published>2018-12-13T09:04:29.000Z</published>
-    <updated>2018-12-14T02:29:44.023Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;2-直线段的裁剪&quot;&gt;&lt;a href=&quot;#2-直线段的裁剪&quot; class=&quot;headerlink&quot; title=&quot;2.直线段的裁剪&quot;&gt;&lt;/a&gt;2.直线段的裁剪&lt;/h1&gt;&lt;h2 id=&quot;2-1-中线分割法&quot;&gt;&lt;a href=&quot;#2-1-中线分割法&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="css" scheme="https://okven.github.io/tags/css/"/>
     
   </entry>
   
