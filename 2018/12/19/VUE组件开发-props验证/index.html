@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="mailto,">
+  <meta name="keywords" content="props,">
 
 
 
@@ -88,18 +88,18 @@
 
 
 
-<meta name="description" content="#搜索过程中发现，各浏览器与各Web Server对URL均有长度的限制如下： 一、IEIE浏览器对URL的最大限制为2083个字符，如果超过这个数字，提交按钮没有任何反应。 二、Firefox (Browser)Firefox浏览器URL的长度限制为65,536个字符，但当我测试时，最大只能处理8182个字符，这是因为url的长度除了浏览器限制外 三、Safari (Browser)URL最大长">
-<meta name="keywords" content="mailto">
+<meta name="description" content="为什么要有props验证 在Vue中父组件向子组件中传送数据是通过props实现的，想象一下当有一个人要使用foo-component组件的时候，他可能对于其要接受的参数有什么要求并不是很清楚，因此传入的参数可能会在开发子组件的人的意料之外，程序就会发生错误，就像我们在函数调用之前先检查一下函数一样，props也可以进行一个预先检查。  123456789101112131415161718192">
+<meta name="keywords" content="props">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在关于mailto的使用中，关于url长度出现超长的问题">
-<meta property="og:url" content="https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/index.html">
+<meta property="og:title" content="VUE组件开发-props验证">
+<meta property="og:url" content="https://okven.github.io/2018/12/19/VUE组件开发-props验证/index.html">
 <meta property="og:site_name" content="隔山望山">
-<meta property="og:description" content="#搜索过程中发现，各浏览器与各Web Server对URL均有长度的限制如下： 一、IEIE浏览器对URL的最大限制为2083个字符，如果超过这个数字，提交按钮没有任何反应。 二、Firefox (Browser)Firefox浏览器URL的长度限制为65,536个字符，但当我测试时，最大只能处理8182个字符，这是因为url的长度除了浏览器限制外 三、Safari (Browser)URL最大长">
+<meta property="og:description" content="为什么要有props验证 在Vue中父组件向子组件中传送数据是通过props实现的，想象一下当有一个人要使用foo-component组件的时候，他可能对于其要接受的参数有什么要求并不是很清楚，因此传入的参数可能会在开发子组件的人的意料之外，程序就会发生错误，就像我们在函数调用之前先检查一下函数一样，props也可以进行一个预先检查。  123456789101112131415161718192">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-14T07:53:15.526Z">
+<meta property="og:updated_time" content="2018-12-19T01:52:15.660Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在关于mailto的使用中，关于url长度出现超长的问题">
-<meta name="twitter:description" content="#搜索过程中发现，各浏览器与各Web Server对URL均有长度的限制如下： 一、IEIE浏览器对URL的最大限制为2083个字符，如果超过这个数字，提交按钮没有任何反应。 二、Firefox (Browser)Firefox浏览器URL的长度限制为65,536个字符，但当我测试时，最大只能处理8182个字符，这是因为url的长度除了浏览器限制外 三、Safari (Browser)URL最大长">
+<meta name="twitter:title" content="VUE组件开发-props验证">
+<meta name="twitter:description" content="为什么要有props验证 在Vue中父组件向子组件中传送数据是通过props实现的，想象一下当有一个人要使用foo-component组件的时候，他可能对于其要接受的参数有什么要求并不是很清楚，因此传入的参数可能会在开发子组件的人的意料之外，程序就会发生错误，就像我们在函数调用之前先检查一下函数一样，props也可以进行一个预先检查。  123456789101112131415161718192">
 
 
 
@@ -129,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/">
+  <link rel="canonical" href="https://okven.github.io/2018/12/19/VUE组件开发-props验证/">
 
 
 
 
 
-  <title>在关于mailto的使用中，关于url长度出现超长的问题 | 隔山望山</title>
+  <title>VUE组件开发-props验证 | 隔山望山</title>
   
 
 
@@ -315,7 +315,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/">
+    <link itemprop="mainEntityOfPage" href="https://okven.github.io/2018/12/19/VUE组件开发-props验证/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zhang Yihao">
@@ -332,7 +332,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">在关于mailto的使用中，关于url长度出现超长的问题</h1>
+          <h1 class="post-title" itemprop="name headline">VUE组件开发-props验证</h1>
         
 
         <div class="post-meta">
@@ -344,8 +344,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-14T15:42:08+08:00">
-                2018-12-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-19T09:41:52+08:00">
+                2018-12-19
               </time>
             
 
@@ -367,8 +367,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/mailto疑点/" itemprop="url" rel="index">
-                    <span itemprop="name">mailto疑点</span>
+                  <a href="/categories/vue/" itemprop="url" rel="index">
+                    <span itemprop="name">vue</span>
                   </a>
                 </span>
 
@@ -385,8 +385,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/" itemprop="commentCount"></span>
+                <a href="/2018/12/19/VUE组件开发-props验证/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/19/VUE组件开发-props验证/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -394,7 +394,7 @@
 
           
           
-             <span id="/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/" class="leancloud_visitors" data-flag-title="在关于mailto的使用中，关于url长度出现超长的问题">
+             <span id="/2018/12/19/VUE组件开发-props验证/" class="leancloud_visitors" data-flag-title="VUE组件开发-props验证">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -419,7 +419,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  207
+                  1.2k
                 </span>
               
 
@@ -435,7 +435,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  6
                 </span>
               
             </div>
@@ -456,15 +456,23 @@
       
 
       
-        <p>#搜索过程中发现，各浏览器与各Web Server对URL均有长度的限制如下：</p>
-<h2 id="一、IE"><a href="#一、IE" class="headerlink" title="一、IE"></a>一、IE</h2><p>IE浏览器对URL的最大限制为2083个字符，如果超过这个数字，提交按钮没有任何反应。</p>
-<h2 id="二、Firefox-Browser"><a href="#二、Firefox-Browser" class="headerlink" title="二、Firefox (Browser)"></a>二、Firefox (Browser)</h2><p>Firefox浏览器URL的长度限制为65,536个字符，但当我测试时，最大只能处理8182个字符，这是因为url的长度除了浏览器限制外</p>
-<h2 id="三、Safari-Browser"><a href="#三、Safari-Browser" class="headerlink" title="三、Safari (Browser)"></a>三、Safari (Browser)</h2><p>URL最大长度限制为 80,000个字符。</p>
-<h2 id="四、Opera-Browser"><a href="#四、Opera-Browser" class="headerlink" title="四、Opera (Browser)"></a>四、Opera (Browser)</h2><p>URL最大长度限制为190,000个字符。</p>
-<h2 id="五、Google-chrome"><a href="#五、Google-chrome" class="headerlink" title="五、Google (chrome)"></a>五、Google (chrome)</h2><p>url长度一旦超过8182个字符时，出现如下服务器错误：</p>
-<p><strong><em>如果你发的正文太长，也就是body后面的值太长，mailto 无法响应。</em></strong></p>
-<p><span style="color:red;">我暂时还没有找到好的解决办法，可以的话变通一下。​​​​</span></p>
-
+        <h2 id="为什么要有props验证"><a href="#为什么要有props验证" class="headerlink" title="为什么要有props验证"></a>为什么要有props验证</h2><hr>
+<pre><code>在Vue中父组件向子组件中传送数据是通过props实现的，想象一下当有一个人要使用foo-component组件的时候，他可能对于其要接受的参数有什么要求并不是很清楚，因此传入的参数可能会在开发子组件的人的意料之外，程序就会发生错误，就像我们在函数调用之前先检查一下函数一样，props也可以进行一个预先检查。
+</code></pre><hr>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Vue Study&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;foo-component :foo-message=<span class="string">"fooMessage"</span>&gt;&lt;/foo-component&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"lib/vue.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line">    var fooComponent = &#123;</span><br><span class="line">        props: &#123;</span><br><span class="line">            fooMessage: Number</span><br><span class="line">        &#125;,</span><br><span class="line">        template: <span class="string">'&lt;div&gt; &#123;&#123; fooMessage &#125;&#125; &lt;/div&gt;'</span></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        components: &#123;</span><br><span class="line">            <span class="string">'foo-component'</span>: fooComponent</span><br><span class="line">        &#125;,</span><br><span class="line">        el: <span class="string">'#app'</span>,</span><br><span class="line">        data: &#123;</span><br><span class="line">            fooMessage: 123</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><em>可以使用type来声明这个参数可以接受的数据的类型，当检查规则只有一个的时候type可以略写 如:fooMessage: Number</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Vue Study&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;foo-component :foo-message=<span class="string">"fooMessage"</span>&gt;&lt;/foo-component&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"lib/vue.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line">    var fooComponent = &#123;</span><br><span class="line">        props: &#123;</span><br><span class="line">            fooMessage: [Number, String]</span><br><span class="line">        &#125;,</span><br><span class="line">        template: <span class="string">'&lt;div&gt; &#123;&#123; fooMessage &#125;&#125; &lt;/div&gt;'</span></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        components: &#123;</span><br><span class="line">            <span class="string">'foo-component'</span>: fooComponent</span><br><span class="line">        &#125;,</span><br><span class="line">        el: <span class="string">'#app'</span>,</span><br><span class="line">        data: &#123;</span><br><span class="line">            fooMessage: 123</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><em>当参数可以是多种类型的其中一个的时候，使用数组来表示。 如 fooMessage: [Number, String]</em></p>
+<h2 id="type能够指定的类型"><a href="#type能够指定的类型" class="headerlink" title="type能够指定的类型"></a>type能够指定的类型</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">type</span>可以是以下原生类型：</span><br><span class="line"></span><br><span class="line">String</span><br><span class="line"></span><br><span class="line">Number</span><br><span class="line"></span><br><span class="line">Boolean</span><br><span class="line"></span><br><span class="line">Function</span><br><span class="line"></span><br><span class="line">Object</span><br><span class="line"></span><br><span class="line">Array</span><br><span class="line"></span><br><span class="line">Symbol</span><br></pre></td></tr></table></figure>
+<h2 id="required"><a href="#required" class="headerlink" title="required"></a>required</h2><p><em>可以使用required选项来声明这个参数是否必须传入。</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Vue Study&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;foo-component :foo-message=<span class="string">"fooMessage"</span>&gt;&lt;/foo-component&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"lib/vue.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line">    var fooComponent = &#123;</span><br><span class="line">        props: &#123;</span><br><span class="line">            fooMessage: &#123;</span><br><span class="line">                <span class="built_in">type</span>: Number,</span><br><span class="line">                required: <span class="literal">true</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        template: <span class="string">'&lt;div&gt; &#123;&#123; fooMessage &#125;&#125; &lt;/div&gt;'</span></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        components: &#123;</span><br><span class="line">            <span class="string">'foo-component'</span>: fooComponent</span><br><span class="line">        &#125;,</span><br><span class="line">        el: <span class="string">'#app'</span>,</span><br><span class="line">        data: &#123;</span><br><span class="line">            fooMessage: 256</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><em>当未传入参数时：会抛出异常</em></p>
+<h2 id="default"><a href="#default" class="headerlink" title="default"></a>default</h2><p><em>使用default选项来指定当父组件未传入参数时props变量的默认值：</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Vue Study&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;foo-component&gt;&lt;/foo-component&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"lib/vue.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line">    var fooComponent = &#123;</span><br><span class="line">        props: &#123;</span><br><span class="line">            fooMessage: &#123;</span><br><span class="line">                <span class="built_in">type</span>: Number,</span><br><span class="line">                default: 128</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        template: <span class="string">'&lt;div&gt; &#123;&#123; fooMessage &#125;&#125; &lt;/div&gt;'</span></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        components: &#123;</span><br><span class="line">            <span class="string">'foo-component'</span>: fooComponent</span><br><span class="line">        &#125;,</span><br><span class="line">        el: <span class="string">'#app'</span>,</span><br><span class="line">        data: &#123;</span><br><span class="line">            fooMessage: 256</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="当type的类型为Array或者Object的时候default必须是一个函数："><a href="#当type的类型为Array或者Object的时候default必须是一个函数：" class="headerlink" title="当type的类型为Array或者Object的时候default必须是一个函数："></a>当type的类型为Array或者Object的时候default必须是一个函数：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Vue Study&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;foo-component&gt;&lt;/foo-component&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"lib/vue.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line">    var fooComponent = &#123;</span><br><span class="line">        props: &#123;</span><br><span class="line">            fooMessage: &#123;</span><br><span class="line">                <span class="built_in">type</span>: Array,</span><br><span class="line">                default: <span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line">                    <span class="built_in">return</span> [<span class="string">'foo'</span>, <span class="string">'bar'</span>];</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        template: <span class="string">'&lt;div&gt; &#123;&#123; fooMessage &#125;&#125; &lt;/div&gt;'</span></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        components: &#123;</span><br><span class="line">            <span class="string">'foo-component'</span>: fooComponent</span><br><span class="line">        &#125;,</span><br><span class="line">        el: <span class="string">'#app'</span>,</span><br><span class="line">        data: &#123;</span><br><span class="line">            fooMessage: [<span class="string">'f'</span>, <span class="string">'o'</span>, <span class="string">'o'</span>]</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="validator-自定义"><a href="#validator-自定义" class="headerlink" title="validator 自定义"></a>validator 自定义</h2><p><strong>当校验规则很复杂，默认提供的校验规则无法满足的时候可以使用自定义函数来校验。</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;Vue Study&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;foo-component :foo-message=<span class="string">"fooMessage"</span>&gt;&lt;/foo-component&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"lib/vue.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line">    var fooComponent = &#123;</span><br><span class="line">        props: &#123;</span><br><span class="line">            fooMessage: &#123;</span><br><span class="line">                validator: <span class="keyword">function</span>(value)&#123;</span><br><span class="line">                    <span class="built_in">return</span> value&gt;=0 &amp;&amp; value&lt;=128;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        template: <span class="string">'&lt;div&gt; &#123;&#123; fooMessage &#125;&#125; &lt;/div&gt;'</span></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        components: &#123;</span><br><span class="line">            <span class="string">'foo-component'</span>: fooComponent</span><br><span class="line">        &#125;,</span><br><span class="line">        el: <span class="string">'#app'</span>,</span><br><span class="line">        data: &#123;</span><br><span class="line">            fooMessage: 100</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="综上所述"><a href="#综上所述" class="headerlink" title="综上所述"></a>综上所述</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">props: &#123;</span><br><span class="line">    // fooA只接受数值类型的参数</span><br><span class="line">    fooA: Number,</span><br><span class="line">    // fooB可以接受字符串和数值类型的参数</span><br><span class="line">    fooB: [String, Number],</span><br><span class="line">    // fooC可以接受字符串类型的参数，并且这个参数必须传入</span><br><span class="line">    fooC: &#123;</span><br><span class="line">        <span class="built_in">type</span>: String,</span><br><span class="line">        required: <span class="literal">true</span></span><br><span class="line">    &#125;,</span><br><span class="line">    // fooD接受数值类型的参数，如果不传入的话默认就是100</span><br><span class="line">    fooD: &#123;</span><br><span class="line">        <span class="built_in">type</span>: Number,</span><br><span class="line">        default: 100</span><br><span class="line">    &#125;,</span><br><span class="line">    // fooE接受对象类型的参数</span><br><span class="line">    fooE: &#123;</span><br><span class="line">        <span class="built_in">type</span>: Object,</span><br><span class="line">        // 当为对象类型设置默认值时必须使用函数返回</span><br><span class="line">        default: <span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line">            <span class="built_in">return</span> &#123; message: <span class="string">'Hello, world'</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // fooF使用一个自定义的验证器</span><br><span class="line">    fooF: &#123;</span><br><span class="line">        validator: <span class="keyword">function</span>(value)&#123;</span><br><span class="line">            <span class="built_in">return</span> value&gt;=0 &amp;&amp; value&lt;=100;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -528,7 +536,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/" title="在关于mailto的使用中，关于url长度出现超长的问题">https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/</a>
+    <a href="https://okven.github.io/2018/12/19/VUE组件开发-props验证/" title="VUE组件开发-props验证">https://okven.github.io/2018/12/19/VUE组件开发-props验证/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -554,7 +562,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/mailto/" rel="tag"># mailto</a>
+            <a href="/tags/props/" rel="tag"># props</a>
           
         </div>
       
@@ -567,8 +575,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/12/14/分享两个地图框架/" rel="next" title="分享两个地图框架">
-                <i class="fa fa-chevron-left"></i> 分享两个地图框架
+              <a href="/2018/12/17/用哈希值匹配替换大量的if-else引用/" rel="next" title="用哈希值匹配替换大量的if-else引用">
+                <i class="fa fa-chevron-left"></i> 用哈希值匹配替换大量的if-else引用
               </a>
             
           </div>
@@ -576,10 +584,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/12/14/mailto的用法及attach附件测试结果。/" rel="prev" title="mailto的用法及attach附件测试结果。">
-                mailto的用法及attach附件测试结果。 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -789,7 +793,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、IE"><span class="nav-number">1.</span> <span class="nav-text">一、IE</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、Firefox-Browser"><span class="nav-number">2.</span> <span class="nav-text">二、Firefox (Browser)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、Safari-Browser"><span class="nav-number">3.</span> <span class="nav-text">三、Safari (Browser)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、Opera-Browser"><span class="nav-number">4.</span> <span class="nav-text">四、Opera (Browser)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、Google-chrome"><span class="nav-number">5.</span> <span class="nav-text">五、Google (chrome)</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要有props验证"><span class="nav-number">1.</span> <span class="nav-text">为什么要有props验证</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#type能够指定的类型"><span class="nav-number">2.</span> <span class="nav-text">type能够指定的类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#required"><span class="nav-number">3.</span> <span class="nav-text">required</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#default"><span class="nav-number">4.</span> <span class="nav-text">default</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#当type的类型为Array或者Object的时候default必须是一个函数："><span class="nav-number">5.</span> <span class="nav-text">当type的类型为Array或者Object的时候default必须是一个函数：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#validator-自定义"><span class="nav-number">6.</span> <span class="nav-text">validator 自定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#综上所述"><span class="nav-number">7.</span> <span class="nav-text">综上所述</span></a></li></ol></div>
             
 
           </div>

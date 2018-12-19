@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-17T12:20:29.848Z</updated>
+  <updated>2018-12-19T01:52:15.660Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VUE组件开发-props验证</title>
+    <link href="https://okven.github.io/2018/12/19/VUE%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91-props%E9%AA%8C%E8%AF%81/"/>
+    <id>https://okven.github.io/2018/12/19/VUE组件开发-props验证/</id>
+    <published>2018-12-19T01:41:52.000Z</published>
+    <updated>2018-12-19T01:52:15.660Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;为什么要有props验证&quot;&gt;&lt;a href=&quot;#为什么要有props验证&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="https://okven.github.io/categories/vue/"/>
+    
+    
+      <category term="props" scheme="https://okven.github.io/tags/props/"/>
+    
+  </entry>
   
   <entry>
     <title>用哈希值匹配替换大量的if-else引用</title>
@@ -518,28 +544,6 @@
     
     
       <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>newBolg</title>
-    <link href="https://okven.github.io/2018/12/14/newBolg/"/>
-    <id>https://okven.github.io/2018/12/14/newBolg/</id>
-    <published>2018-12-14T06:03:30.000Z</published>
-    <updated>2018-12-14T06:06:21.077Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;a href=&quot;https://okven.github.io/&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
