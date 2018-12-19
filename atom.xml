@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-19T01:52:15.660Z</updated>
+  <updated>2018-12-19T08:05:54.624Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>angular中使用a标签的锚点</title>
+    <link href="https://okven.github.io/2018/12/19/angular%E4%B8%AD%E4%BD%BF%E7%94%A8a%E6%A0%87%E7%AD%BE%E7%9A%84%E9%94%9A%E7%82%B9/"/>
+    <id>https://okven.github.io/2018/12/19/angular中使用a标签的锚点/</id>
+    <published>2018-12-19T08:03:54.000Z</published>
+    <updated>2018-12-19T08:05:54.624Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;p&gt;在ng中，a标签中的href属性会自动的使用路由机制，最后的结果会被当成跳转的路由地址，具体的原因有待进一步考证，反正最后的结果就是上面的写法不生效。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;普通页面中的写法&lt;/em&gt;&lt;/p&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+      <category term="angular" scheme="https://okven.github.io/categories/angular/"/>
+    
+    
+      <category term="锚点" scheme="https://okven.github.io/tags/%E9%94%9A%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>VUE组件开发-props验证</title>
@@ -518,32 +548,6 @@
     
     
       <category term="input" scheme="https://okven.github.io/tags/input/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小程序页面之间跳转的方式</title>
-    <link href="https://okven.github.io/2018/12/14/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E4%B9%8B%E9%97%B4%E8%B7%B3%E8%BD%AC%E7%9A%84%E6%96%B9%E5%BC%8F/"/>
-    <id>https://okven.github.io/2018/12/14/小程序页面之间跳转的方式/</id>
-    <published>2018-12-14T06:09:22.000Z</published>
-    <updated>2018-12-17T02:04:18.926Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;先导&quot;&gt;&lt;a href=&quot;#先导&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
