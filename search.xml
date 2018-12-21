@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[小程序下方滑出弹窗css解决方案]]></title>
+    <url>%2F2018%2F12%2F21%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8B%E6%96%B9%E6%BB%91%E5%87%BA%E5%BC%B9%E7%AA%97css%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[用css解决小程序点击按钮下方滑出弹窗用@keyframes完成动画效果12345678910111213141516.up&#123; animation: up .7s;&#125;.down&#123; animation: down 1s;&#125;@keyframes up&#123; 0% &#123; transform: translateY(550rpx); &#125; 100% &#123; transform: translateY(0); &#125;&#125;@keyframes down&#123; 0% &#123; transform: translateY(0); &#125; 100% &#123; transform: translateY(550rpx); &#125;&#125; 绑定class12345678910111213&lt;!-- 立即预约 --&gt;&lt;view wx:if="&#123;&#123;disTag&#125;&#125;" class='order'&gt; &lt;view class="order-box &#123;&#123;disTag== true ? 'up' : 'down'&#125;&#125;"&gt; //绑定class完成加载效果 &lt;icon class='clear' type="clear" size="20" bindtap='clear'/&gt; &lt;view class='pro shop-prize'&gt; 门市价格：&lt;text style=''&gt;￥199&lt;/text&gt; &lt;/view&gt; &lt;view class='pro order-prize'&gt; 支付金额：&lt;text&gt;￥&#123;&#123;yyPrice&#125;&#125;&lt;/text&gt; &lt;/view&gt; &lt;button class='yd-submit' bindtap='payNow'&gt;立即支付&lt;/button&gt; &lt;/view&gt;&lt;/view&gt;]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[angular中使用a标签的锚点]]></title>
     <url>%2F2018%2F12%2F19%2Fangular%E4%B8%AD%E4%BD%BF%E7%94%A8a%E6%A0%87%E7%AD%BE%E7%9A%84%E9%94%9A%E7%82%B9%2F</url>
     <content type="text"><![CDATA[在ng中，a标签中的href属性会自动的使用路由机制，最后的结果会被当成跳转的路由地址，具体的原因有待进一步考证，反正最后的结果就是上面的写法不生效。 普通页面中的写法 12&lt;a href="#test"&gt;走你&lt;/a&gt;&lt;div id="test"&gt;被定位区域&lt;/div&gt; angular中锚点写法 12&lt;a router="./" [fragment]="test"&gt;来吧&lt;/a&gt;&lt;div id="test"&gt;被定位区域&lt;/div&gt;]]></content>
