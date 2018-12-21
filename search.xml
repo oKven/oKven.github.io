@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[小程序页面跳转传值和取值]]></title>
+    <url>%2F2018%2F12%2F21%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC%E4%BC%A0%E5%80%BC%E5%92%8C%E5%8F%96%E5%80%BC%2F</url>
+    <content type="text"><![CDATA[跳转传值 先看数据传递 * 1&lt;radio class='clickeds' value="&#123;&#123;item&#125;&#125;***&#123;&#123;index&#125;&#125;***&#123;&#123;hotList[index].id&#125;&#125;" checked="&#123;&#123;item.checked&#125;&#125;"/&gt; 12345678radioChange: function (e) &#123; console.log('radio发生change事件，携带value值为：', e.detail.value) this.checkCard = e.detail.value; var that = this; that.setData(&#123; botCardPrize: e.detail.value.split("&amp;")[0] &#125;);&#125;, 12345topay:function()&#123; var that = this; console.log( "选中的会员卡金额为: " + that.data.botCardPrize); wx.navigateTo(&#123; url: "../../pages/buyCard/buyCard?price=" + this.checkCard.split("&amp;")[0] + "&amp;name=" + this.checkCard.split("&amp;")[1] + "&amp;productId=" + this.checkCard.split("&amp;")[2] + "&amp;type=" + this.giftCard &#125;) &#125; 在这里radio先选中，然后赋值给data中的checkCard，然后点击付款按钮的时候进行传值并且跳转到付款页 在新页面接收数据12345678910111213onLoad: function (options) &#123; let thisPrice = options.price*100; let productName = options.name; let id = options.productId; let type = options.type; let toPay = &#123; thisPrice: thisPrice, productName: productName, id: id, type: type &#125;; this.payInfo = toPay; &#125;, option后面跟链接中的对应键解出值，组合成新的数据对象]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[小程序下方滑出弹窗css解决方案]]></title>
     <url>%2F2018%2F12%2F21%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8B%E6%96%B9%E6%BB%91%E5%87%BA%E5%BC%B9%E7%AA%97css%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[用css解决小程序点击按钮下方滑出弹窗用@keyframes完成动画效果12345678910111213141516.up&#123; animation: up .7s;&#125;.down&#123; animation: down 1s;&#125;@keyframes up&#123; 0% &#123; transform: translateY(550rpx); &#125; 100% &#123; transform: translateY(0); &#125;&#125;@keyframes down&#123; 0% &#123; transform: translateY(0); &#125; 100% &#123; transform: translateY(550rpx); &#125;&#125; 绑定class12345678910111213&lt;!-- 立即预约 --&gt;&lt;view wx:if="&#123;&#123;disTag&#125;&#125;" class='order'&gt; &lt;view class="order-box &#123;&#123;disTag== true ? 'up' : 'down'&#125;&#125;"&gt; //绑定class完成加载效果 &lt;icon class='clear' type="clear" size="20" bindtap='clear'/&gt; &lt;view class='pro shop-prize'&gt; 门市价格：&lt;text style=''&gt;￥199&lt;/text&gt; &lt;/view&gt; &lt;view class='pro order-prize'&gt; 支付金额：&lt;text&gt;￥&#123;&#123;yyPrice&#125;&#125;&lt;/text&gt; &lt;/view&gt; &lt;button class='yd-submit' bindtap='payNow'&gt;立即支付&lt;/button&gt; &lt;/view&gt;&lt;/view&gt;]]></content>

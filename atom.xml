@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-21T07:24:50.763Z</updated>
+  <updated>2018-12-21T07:56:59.880Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小程序页面跳转传值和取值</title>
+    <link href="https://okven.github.io/2018/12/21/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC%E4%BC%A0%E5%80%BC%E5%92%8C%E5%8F%96%E5%80%BC/"/>
+    <id>https://okven.github.io/2018/12/21/小程序页面跳转传值和取值/</id>
+    <published>2018-12-21T07:47:38.000Z</published>
+    <updated>2018-12-21T07:56:59.880Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;跳转传值&quot;&gt;&lt;a href=&quot;#跳转传值&quot; class=&quot;headerlink&quot; title=&quot;跳转传值&quot;&gt;&lt;/a&gt;跳转传值&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;先看数据传递 *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>小程序下方滑出弹窗css解决方案</title>
@@ -521,33 +550,6 @@
     
     
       <category term="jquery" scheme="https://okven.github.io/tags/jquery/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IsValid函数基本用法</title>
-    <link href="https://okven.github.io/2018/12/14/IsValid%E5%87%BD%E6%95%B0%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/"/>
-    <id>https://okven.github.io/2018/12/14/IsValid函数基本用法/</id>
-    <published>2018-12-14T07:21:33.000Z</published>
-    <updated>2018-12-14T07:25:17.611Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;p&gt;&lt;em&gt;检查对象变量是否已经实例化，即实例变量的值是否是个有效的对象。&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&quot;语法&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="js" scheme="https://okven.github.io/tags/js/"/>
     
   </entry>
   
