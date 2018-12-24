@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-24T08:13:35.364Z</updated>
+  <updated>2018-12-24T08:43:35.673Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>微信小程序项目如何优雅的发起request请求</title>
+    <title>微信小程序项目request请求优化</title>
     <link href="https://okven.github.io/2018/12/24/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E5%8F%91%E8%B5%B7request%E8%AF%B7%E6%B1%82/"/>
     <id>https://okven.github.io/2018/12/24/微信小程序项目如何优雅的发起request请求/</id>
     <published>2018-12-24T08:01:17.000Z</published>
-    <updated>2018-12-24T08:13:35.364Z</updated>
+    <updated>2018-12-24T08:43:35.673Z</updated>
     
     <summary type="html">
     
