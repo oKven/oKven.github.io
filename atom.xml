@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-29T02:53:03.337Z</updated>
+  <updated>2018-12-29T03:09:22.921Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小程序组件之picker</title>
+    <link href="https://okven.github.io/2018/12/29/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BB%84%E4%BB%B6%E4%B9%8Bpicker/"/>
+    <id>https://okven.github.io/2018/12/29/小程序组件之picker/</id>
+    <published>2018-12-29T03:04:30.000Z</published>
+    <updated>2018-12-29T03:09:22.921Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;picker-之-日期&quot;&gt;&lt;a href=&quot;#picker-之-日期&quot; class=&quot;headerlink&quot; title=&quot;picker 之 日期&quot;&gt;&lt;/a&gt;picker 之 日期&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;闲话不多说 直接拍代码
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="picker" scheme="https://okven.github.io/tags/picker/"/>
+    
+  </entry>
   
   <entry>
     <title>小程序onLaunch的异步问题解决方案</title>
@@ -519,33 +546,6 @@
     
     
       <category term="jsDoc" scheme="https://okven.github.io/tags/jsDoc/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mailto的用法及attach附件测试结果。</title>
-    <link href="https://okven.github.io/2018/12/14/mailto%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8Aattach%E9%99%84%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E3%80%82/"/>
-    <id>https://okven.github.io/2018/12/14/mailto的用法及attach附件测试结果。/</id>
-    <published>2018-12-14T07:46:46.000Z</published>
-    <updated>2018-12-14T07:53:15.523Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;em&gt;mailto是一个发送电子邮件非常方便的方法，功能上面也是能满足正常的使用。&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;headerlink&quot; title=&quot;格式&quot;&gt;&lt;/a&gt;格式&lt;/h2&gt;&lt;h3
-        
-      
-    
-    </summary>
-    
-      <category term="mailto疑点" scheme="https://okven.github.io/categories/mailto%E7%96%91%E7%82%B9/"/>
-    
-    
-      <category term="mailto" scheme="https://okven.github.io/tags/mailto/"/>
     
   </entry>
   

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[小程序组件之picker]]></title>
+    <url>%2F2018%2F12%2F29%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BB%84%E4%BB%B6%E4%B9%8Bpicker%2F</url>
+    <content type="text"><![CDATA[picker 之 日期 闲话不多说 直接拍代码 * 12345678910111213141516//wxml// fields 是精细度 可以是 年 或 月 或 日&lt;picker mode="date" value="&#123;&#123;date&#125;&#125;" fields="month" bindchange="bindDateChange"&gt;&lt;view class="picker"&gt;&#123;&#123;date&#125;&#125;&lt;/view&gt;&lt;/picker&gt;// jsdate: '2016-09',bindDateChange(e) &#123; console.log('picker发送选择改变，携带值为', e.detail.value)&#125;]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>picker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[小程序onLaunch的异步问题解决方案]]></title>
     <url>%2F2018%2F12%2F29%2F%E5%B0%8F%E7%A8%8B%E5%BA%8FonLaunch%E7%9A%84%E5%BC%82%E6%AD%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[微信小程序app.js 中 onLaunch 与 index.js 中 onload 的异步执行问题 ， 在同时触发的情况下 如何等待返回值而响应index中 onload的内容 比如说 获取用户的openid或者凭证 在没返回需要的数据之前 index.js 的 onload会执行 从而导致后续的代码没有openid的支持 * ES6中提供了一个promise方案是一个不错的解决方案先做一个示例说明一下promise的用法Promise是一个构造函数，自己身上有all、reject、resolve这几个眼熟的方法，原型上有then、catch等同样很眼熟的方法。1234567891011121314function runAsync()&#123; var p = new Promise(function(resolve, reject)&#123; //做一些异步操作 setTimeout(function()&#123; console.log('执行完成'); resolve('随便什么数据'); &#125;, 2000); &#125;); return p;&#125;// 如何用？runAsync(function(data)&#123; console.log(data);&#125;); reject的用法我们前面的例子都是只有“执行成功”的回调，还没有“失败”的情况，reject的作用就是把Promise的状态置为rejected，这样我们在then中就能捕捉到，然后执行“失败”情况的回调。看下面的代码。123456789101112131415161718192021222324252627function getNumber()&#123; var p = new Promise(function(resolve, reject)&#123; //做一些异步操作 setTimeout(function()&#123; var num = Math.ceil(Math.random()*10); //生成1-10的随机数 if(num&lt;=5)&#123; resolve(num); &#125; else&#123; reject('数字太大了'); &#125; &#125;, 2000); &#125;); return p;&#125;getNumber().then( function(data)&#123; console.log('resolved'); console.log(data); &#125;, function(reason, data)&#123; console.log('rejected'); console.log(reason); &#125;); 将promise结合到小程序中promise下载地址promiseCND 将压缩版本的源码直接复制出来 在小程序中创建一个promise.js的文件 直接粘贴进去 然后在app.js中引用 1const Promise = require('utils/promise.js'); APP.js 中的代码 将你本来写在 onLaunch 中的代码片段拿出来 重新写一个方法* 123456789101112131415161718192021222324252627282930313233343536login:function()&#123; let that = this; return new Promise(function (resolve, reject) &#123; // 登录 wx.login(&#123; success: res =&gt; &#123; // 发送 res.code 到后台换取 openId, sessionKey, unionId if (res.code) &#123; // console.log('获取用户登录凭证：' + code); // ------ 发送凭证 ------ /* * 通过code获取登录session */ wx.request(&#123; url: 'xxx/login?code=' + res.code, method: 'GET', header: &#123; 'content-type': 'application/json' &#125;, success: function (res) &#123; console.log(res) if (res.statusCode == 200) &#123; // 注意这里 resolve(res); &#125; else &#123; console.log(res.errMsg) &#125; &#125;, &#125;) &#125; else &#123; console.log('获取用户登录失败：' + res.errMsg); &#125; &#125; &#125;) &#125;) &#125; index.js 中的代码12345678910const &#123; requestData &#125; = require('../../utils/util');onLoad: function (options) &#123; let _this = this; app.login().then(function (res) &#123; let newDate = new Date(); // 修改到当前的时间 _this.changeNowTime(); &#125;)&#125;,]]></content>

@@ -1,3 +1,4 @@
+https://okven.github.io/2018/12/29/小程序组件之picker/
 https://okven.github.io/2018/12/29/小程序onLaunch的异步问题解决方案/
 https://okven.github.io/2018/12/24/微信小程序项目如何优雅的发起request请求/
 https://okven.github.io/2018/12/23/JavaScript骚操作之操作符/
