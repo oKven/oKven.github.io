@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-24T08:43:35.673Z</updated>
+  <updated>2018-12-29T02:53:03.337Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小程序onLaunch的异步问题解决方案</title>
+    <link href="https://okven.github.io/2018/12/29/%E5%B0%8F%E7%A8%8B%E5%BA%8FonLaunch%E7%9A%84%E5%BC%82%E6%AD%A5%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://okven.github.io/2018/12/29/小程序onLaunch的异步问题解决方案/</id>
+    <published>2018-12-29T02:33:56.000Z</published>
+    <updated>2018-12-29T02:53:03.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;微信小程序app-js-中-onLaunch-与-index-js-中-onload-的异步执行问题-，-在同时触发的情况下-如何等待返回值而响应index中-onload的内容&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="onLaunch" scheme="https://okven.github.io/tags/onLaunch/"/>
+    
+  </entry>
   
   <entry>
     <title>微信小程序项目request请求优化</title>
@@ -511,33 +537,6 @@
         
           &lt;p&gt;&lt;em&gt;mailto是一个发送电子邮件非常方便的方法，功能上面也是能满足正常的使用。&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;headerlink&quot; title=&quot;格式&quot;&gt;&lt;/a&gt;格式&lt;/h2&gt;&lt;h3
-        
-      
-    
-    </summary>
-    
-      <category term="mailto疑点" scheme="https://okven.github.io/categories/mailto%E7%96%91%E7%82%B9/"/>
-    
-    
-      <category term="mailto" scheme="https://okven.github.io/tags/mailto/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在关于mailto的使用中，关于url长度出现超长的问题</title>
-    <link href="https://okven.github.io/2018/12/14/%E5%9C%A8%E5%85%B3%E4%BA%8Emailto%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%AD%EF%BC%8C%E5%85%B3%E4%BA%8Eurl%E9%95%BF%E5%BA%A6%E5%87%BA%E7%8E%B0%E8%B6%85%E9%95%BF%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://okven.github.io/2018/12/14/在关于mailto的使用中，关于url长度出现超长的问题/</id>
-    <published>2018-12-14T07:42:08.000Z</published>
-    <updated>2018-12-14T07:53:15.526Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;#搜索过程中发现，各浏览器与各Web Server对URL均有长度的限制如下：&lt;/p&gt;
-&lt;h2 id=&quot;一、IE&quot;&gt;&lt;a href=&quot;#一、IE&quot; class=&quot;headerlink&quot;
         
       
     
