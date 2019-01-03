@@ -88,18 +88,18 @@
 
 
 
-<meta name="description" content="微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多  示例如下12345// 好多博客都是这么写的&amp;lt;form class=&apos;form&apos; bindsubmit=&quot;formSubmit&quot; report-submit = &apos;true&apos;&amp;gt;// 查看编译之后的结构发现 这么写编译之后report-submit = &apos;true&apos;   →  report">
+<meta name="description" content="微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多  示例如下12345// 好多博客都是这么写的&amp;lt;form class=&apos;form&apos; bindsubmit=&quot;formSubmit&quot; report-submit = &apos;true&apos;&amp;gt;// 查看编译之后的结构发现 这么写编译之后  执行的是字符串 引号之后 true 或者 false  都是一样">
 <meta name="keywords" content="小程序">
 <meta property="og:type" content="article">
 <meta property="og:title" content="微信小程序之属性值为Boolean的绑定问题">
 <meta property="og:url" content="https://okven.github.io/2019/01/03/微信小程序之属性值为Boolean的绑定问题/index.html">
 <meta property="og:site_name" content="隔山望山">
-<meta property="og:description" content="微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多  示例如下12345// 好多博客都是这么写的&amp;lt;form class=&apos;form&apos; bindsubmit=&quot;formSubmit&quot; report-submit = &apos;true&apos;&amp;gt;// 查看编译之后的结构发现 这么写编译之后report-submit = &apos;true&apos;   →  report">
+<meta property="og:description" content="微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多  示例如下12345// 好多博客都是这么写的&amp;lt;form class=&apos;form&apos; bindsubmit=&quot;formSubmit&quot; report-submit = &apos;true&apos;&amp;gt;// 查看编译之后的结构发现 这么写编译之后  执行的是字符串 引号之后 true 或者 false  都是一样">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-03T07:58:38.297Z">
+<meta property="og:updated_time" content="2019-01-03T08:02:51.271Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序之属性值为Boolean的绑定问题">
-<meta name="twitter:description" content="微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多  示例如下12345// 好多博客都是这么写的&amp;lt;form class=&apos;form&apos; bindsubmit=&quot;formSubmit&quot; report-submit = &apos;true&apos;&amp;gt;// 查看编译之后的结构发现 这么写编译之后report-submit = &apos;true&apos;   →  report">
+<meta name="twitter:description" content="微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多  示例如下12345// 好多博客都是这么写的&amp;lt;form class=&apos;form&apos; bindsubmit=&quot;formSubmit&quot; report-submit = &apos;true&apos;&amp;gt;// 查看编译之后的结构发现 这么写编译之后  执行的是字符串 引号之后 true 或者 false  都是一样">
 
 
 
@@ -419,7 +419,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  150
+                  174
                 </span>
               
 
@@ -456,7 +456,7 @@
       
 
       
-        <h2 id="微信小程序的属性为Boolean类型的时候遇到的一些问题"><a href="#微信小程序的属性为Boolean类型的时候遇到的一些问题" class="headerlink" title="微信小程序的属性为Boolean类型的时候遇到的一些问题"></a>微信小程序的属性为Boolean类型的时候遇到的一些问题</h2><h3 id="之前看好多人发的博客-感觉还是抄袭的居多-示例如下"><a href="#之前看好多人发的博客-感觉还是抄袭的居多-示例如下" class="headerlink" title="之前看好多人发的博客 感觉还是抄袭的居多  示例如下"></a>之前看好多人发的博客 感觉还是抄袭的居多  示例如下</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 好多博客都是这么写的</span><br><span class="line">&lt;form class=<span class="string">'form'</span> bindsubmit=<span class="string">"formSubmit"</span> report-submit = <span class="string">'true'</span>&gt;</span><br><span class="line">// 查看编译之后的结构发现 这么写编译之后</span><br><span class="line">report-submit = <span class="string">'true'</span>   →  report-submit = <span class="string">''</span></span><br><span class="line">//发现问题了吗 朋友们</span><br></pre></td></tr></table></figure>
+        <h2 id="微信小程序的属性为Boolean类型的时候遇到的一些问题"><a href="#微信小程序的属性为Boolean类型的时候遇到的一些问题" class="headerlink" title="微信小程序的属性为Boolean类型的时候遇到的一些问题"></a>微信小程序的属性为Boolean类型的时候遇到的一些问题</h2><h3 id="之前看好多人发的博客-感觉还是抄袭的居多-示例如下"><a href="#之前看好多人发的博客-感觉还是抄袭的居多-示例如下" class="headerlink" title="之前看好多人发的博客 感觉还是抄袭的居多  示例如下"></a>之前看好多人发的博客 感觉还是抄袭的居多  示例如下</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 好多博客都是这么写的</span><br><span class="line">&lt;form class=<span class="string">'form'</span> bindsubmit=<span class="string">"formSubmit"</span> report-submit = <span class="string">'true'</span>&gt;</span><br><span class="line">// 查看编译之后的结构发现 这么写编译之后  执行的是字符串 引号之后 <span class="literal">true</span> 或者 <span class="literal">false</span>  都是一样的不起作用</span><br><span class="line">report-submit = <span class="string">'true'</span>   →  report-submit = <span class="string">''</span></span><br><span class="line">//发现问题了吗 朋友们</span><br></pre></td></tr></table></figure>
 <h3 id="正确的写法"><a href="#正确的写法" class="headerlink" title="正确的写法"></a>正确的写法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">//wxml</span><br><span class="line">&lt;form class=<span class="string">'form'</span> bindsubmit=<span class="string">"formSubmit"</span> report-submit = <span class="string">'&#123;&#123;getFormId&#125;&#125;'</span>&gt;</span><br><span class="line">// js</span><br><span class="line">Page(&#123;</span><br><span class="line"></span><br><span class="line">  /**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   */</span><br><span class="line">  data: &#123;</span><br><span class="line">    getFormId:<span class="literal">true</span></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 <ul>
 <li>遇到问题一定要自己去实践 实践得真知 *</li>

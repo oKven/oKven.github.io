@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[微信小程序之属性值为Boolean的绑定问题]]></title>
     <url>%2F2019%2F01%2F03%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E5%B1%9E%E6%80%A7%E5%80%BC%E4%B8%BABoolean%E7%9A%84%E7%BB%91%E5%AE%9A%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多 示例如下12345// 好多博客都是这么写的&lt;form class='form' bindsubmit="formSubmit" report-submit = 'true'&gt;// 查看编译之后的结构发现 这么写编译之后report-submit = 'true' → report-submit = ''//发现问题了吗 朋友们 正确的写法1234567891011//wxml&lt;form class='form' bindsubmit="formSubmit" report-submit = '&#123;&#123;getFormId&#125;&#125;'&gt;// jsPage(&#123; /** * 页面的初始数据 */ data: &#123; getFormId:true &#125; 遇到问题一定要自己去实践 实践得真知 *]]></content>
+    <content type="text"><![CDATA[微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多 示例如下12345// 好多博客都是这么写的&lt;form class='form' bindsubmit="formSubmit" report-submit = 'true'&gt;// 查看编译之后的结构发现 这么写编译之后 执行的是字符串 引号之后 true 或者 false 都是一样的不起作用report-submit = 'true' → report-submit = ''//发现问题了吗 朋友们 正确的写法1234567891011//wxml&lt;form class='form' bindsubmit="formSubmit" report-submit = '&#123;&#123;getFormId&#125;&#125;'&gt;// jsPage(&#123; /** * 页面的初始数据 */ data: &#123; getFormId:true &#125; 遇到问题一定要自己去实践 实践得真知 *]]></content>
       <categories>
         <category>小程序</category>
       </categories>
