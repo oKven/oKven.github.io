@@ -1,3 +1,4 @@
+https://okven.github.io/2019/01/03/微信小程序之页面声明周期/
 https://okven.github.io/2019/01/03/微信小程序之属性值为Boolean的绑定问题/
 https://okven.github.io/2018/12/29/小程序组件之picker/
 https://okven.github.io/2018/12/29/小程序onLaunch的异步问题解决方案/
