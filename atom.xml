@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2018-12-29T03:09:22.921Z</updated>
+  <updated>2019-01-03T07:58:38.297Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信小程序之属性值为Boolean的绑定问题</title>
+    <link href="https://okven.github.io/2019/01/03/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E5%B1%9E%E6%80%A7%E5%80%BC%E4%B8%BABoolean%E7%9A%84%E7%BB%91%E5%AE%9A%E9%97%AE%E9%A2%98/"/>
+    <id>https://okven.github.io/2019/01/03/微信小程序之属性值为Boolean的绑定问题/</id>
+    <published>2019-01-03T07:37:30.000Z</published>
+    <updated>2019-01-03T07:58:38.297Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;微信小程序的属性为Boolean类型的时候遇到的一些问题&quot;&gt;&lt;a href=&quot;#微信小程序的属性为Boolean类型的时候遇到的一些问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>小程序组件之picker</title>
@@ -520,32 +546,6 @@
     
     
       <category term="gulp" scheme="https://okven.github.io/tags/gulp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>jsDoc文档自动化生成</title>
-    <link href="https://okven.github.io/2018/12/14/jsDoc%E6%96%87%E6%A1%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E7%94%9F%E6%88%90/"/>
-    <id>https://okven.github.io/2018/12/14/jsDoc文档自动化生成/</id>
-    <published>2018-12-14T07:55:01.000Z</published>
-    <updated>2018-12-14T07:59:12.064Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;em&gt;​​十分推荐，编辑代码的时候有写注释的习惯，后期直接自动生成文档，不用劳神费力的一点找一点写。 前期工作还是配置环境， 下载JDK 配置变量等等就不提了， 我是用的grunt软件来配合项目使用的 ， 压缩 编译 格式化  文档自动化 ， 很方便。
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="jsDoc" scheme="https://okven.github.io/tags/jsDoc/"/>
     
   </entry>
   

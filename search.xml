@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[微信小程序之属性值为Boolean的绑定问题]]></title>
+    <url>%2F2019%2F01%2F03%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E5%B1%9E%E6%80%A7%E5%80%BC%E4%B8%BABoolean%E7%9A%84%E7%BB%91%E5%AE%9A%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[微信小程序的属性为Boolean类型的时候遇到的一些问题之前看好多人发的博客 感觉还是抄袭的居多 示例如下12345// 好多博客都是这么写的&lt;form class='form' bindsubmit="formSubmit" report-submit = 'true'&gt;// 查看编译之后的结构发现 这么写编译之后report-submit = 'true' → report-submit = ''//发现问题了吗 朋友们 正确的写法1234567891011//wxml&lt;form class='form' bindsubmit="formSubmit" report-submit = '&#123;&#123;getFormId&#125;&#125;'&gt;// jsPage(&#123; /** * 页面的初始数据 */ data: &#123; getFormId:true &#125; 遇到问题一定要自己去实践 实践得真知 *]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[小程序组件之picker]]></title>
     <url>%2F2018%2F12%2F29%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BB%84%E4%BB%B6%E4%B9%8Bpicker%2F</url>
     <content type="text"><![CDATA[picker 之 日期 闲话不多说 直接拍代码 * 12345678910111213141516//wxml// fields 是精细度 可以是 年 或 月 或 日&lt;picker mode="date" value="&#123;&#123;date&#125;&#125;" fields="month" bindchange="bindDateChange"&gt;&lt;view class="picker"&gt;&#123;&#123;date&#125;&#125;&lt;/view&gt;&lt;/picker&gt;// jsdate: '2016-09',bindDateChange(e) &#123; console.log('picker发送选择改变，携带值为', e.detail.value)&#125;]]></content>
