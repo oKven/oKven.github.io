@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-03T08:22:01.266Z</updated>
+  <updated>2019-01-07T03:04:31.860Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>不显示</title>
+    <link href="https://okven.github.io/2019/01/07/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9C%9F%E6%9C%BAshowToast%E4%B8%8D%E6%98%BE%E7%A4%BA/"/>
+    <id>https://okven.github.io/2019/01/07/微信小程序真机showToast不显示/</id>
+    <published>2019-01-07T02:50:55.000Z</published>
+    <updated>2019-01-07T03:04:31.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;showToast闪烁&quot;&gt;&lt;a href=&quot;#showToast闪烁&quot; class=&quot;headerlink&quot; title=&quot;showToast闪烁&quot;&gt;&lt;/a&gt;showToast闪烁&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;做了一套公司的小程序，真机测试的时候发现一个问题
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>微信小程序之页面声明周期</title>
@@ -516,33 +542,6 @@
     </summary>
     
       <category term="angularJs" scheme="https://okven.github.io/categories/angularJs/"/>
-    
-    
-      <category term="angularJs" scheme="https://okven.github.io/tags/angularJs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>angularJs--01</title>
-    <link href="https://okven.github.io/2018/12/14/angularJs--01/"/>
-    <id>https://okven.github.io/2018/12/14/angularJs--01/</id>
-    <published>2018-12-14T08:12:52.000Z</published>
-    <updated>2018-12-14T08:15:41.974Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;em&gt;今天看到有人在论坛里问有没有Angular的实战项目，接触实战项目成长快，积累经验没什么错，我特别想说一句Angualr的官方tutorial看过吗？这里面就介绍的很详细从配置到服务到解答。我在这儿发一下网址：&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
       <category term="angularJs" scheme="https://okven.github.io/tags/angularJs/"/>

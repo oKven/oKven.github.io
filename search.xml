@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[不显示]]></title>
+    <url>%2F2019%2F01%2F07%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9C%9F%E6%9C%BAshowToast%E4%B8%8D%E6%98%BE%E7%A4%BA%2F</url>
+    <content type="text"><![CDATA[showToast闪烁做了一套公司的小程序，真机测试的时候发现一个问题 showToast闪烁一下 就消失了。然后我首先想到的是 是不是hide了。然后去复检代码，结果如下： 从头开始捋一下执行的顺序就不难理解了，代码顺序 wx.showLoading() =&gt;wx.hideLoading() =&gt; wx.showToast() ， 最后的运行顺序为wx.showLoading() =&gt; wx.showToast() =&gt;wx.hideLoading() ，受到最后hide的影响，闪烁一下就没了。既然问题找到，解决就不难了 思路 先执行hide 把showToast拿到最后去执行 *1234567891011wx.showLoading();wx.hideLoading();setTimeout( () =&gt; &#123; wx.showToast(&#123; title: '提示语', icon: "none", &#125;); setTimeout( () =&gt;&#123; wx.hideToast(); &#125;,2000)&#125;,0); 错误代码12345678910111213141516171819202122232425// 请求事件requestEvent: function() &#123; wx.showLoading(&#123; title: '正在加载中', &#125;) wx.request(&#123; url: '', success: function(res) &#123; wx.showToast(&#123; title: '成功', duration: 2000 &#125;) &#125;, fail: function() &#123; wx.showToast(&#123; title: '失败', duration: 2000 &#125;) &#125;, complete: function() &#123; wx.hideLoading() //***** 问题出在这儿 调用 onComplete 时，hideLoading 将弹框隐藏掉了 &#125; &#125;)&#125; 正确代码123456789101112131415161718192021222324// 请求事件requestEvent: function() &#123; wx.showLoading(&#123; title: '正在加载中', &#125;) wx.request(&#123; url: '', success: function(res) &#123; wx.hideLoading() wx.showToast(&#123; title: '成功', duration: 2000 &#125;) &#125;, fail: function() &#123; wx.hideLoading() wx.showToast(&#123; title: '失败', duration: 2000 &#125;) &#125; &#125;)&#125;]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[微信小程序之页面声明周期]]></title>
     <url>%2F2019%2F01%2F03%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E9%A1%B5%E9%9D%A2%E5%A3%B0%E6%98%8E%E5%91%A8%E6%9C%9F%2F</url>
     <content type="text"><![CDATA[微信小程序的页面声明周期12345678910111213141516onLoad: 页面加载 一个页面只会调用一次。 接收页面参数 可以获取wx.navigateTo和wx.redirectTo及&lt;navigator/&gt;中的 query。onShow: 页面显示 每次打开页面都会调用一次。onReady: 页面初次渲染完成 一个页面只会调用一次，代表页面已经准备妥当，可以和视图层进行交互。onHide: 页面隐藏 当navigateTo或底部tab切换时调用。onUnload: 页面卸载 当redirectTo或navigateBack的时候调用。]]></content>
