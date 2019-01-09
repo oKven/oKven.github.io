@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-07T03:04:31.860Z</updated>
+  <updated>2019-01-09T10:17:19.994Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信小程序下拉刷新</title>
+    <link href="https://okven.github.io/2019/01/09/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0/"/>
+    <id>https://okven.github.io/2019/01/09/微信小程序下拉刷新/</id>
+    <published>2019-01-09T10:07:59.000Z</published>
+    <updated>2019-01-09T10:17:19.994Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;微信小程序下拉刷新&quot;&gt;&lt;a href=&quot;#微信小程序下拉刷新&quot; class=&quot;headerlink&quot; title=&quot;微信小程序下拉刷新&quot;&gt;&lt;/a&gt;微信小程序下拉刷新&lt;/h2&gt;&lt;h3 id=&quot;设置json配置&quot;&gt;&lt;a href=&quot;#设置json配置&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>不显示</title>
@@ -518,33 +544,6 @@
     
     
       <category term="es6" scheme="https://okven.github.io/tags/es6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>angularJs--02</title>
-    <link href="https://okven.github.io/2018/12/14/angularJs-02/"/>
-    <id>https://okven.github.io/2018/12/14/angularJs-02/</id>
-    <published>2018-12-14T08:16:41.000Z</published>
-    <updated>2018-12-14T08:21:47.254Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;em&gt;快速的angular的项目。今天分享的是angular路由的二级嵌套，可以理解为深层嵌套，我用到了ui-route，顺便在这发一下cdn，方便使用。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="angularJs" scheme="https://okven.github.io/categories/angularJs/"/>
-    
-    
-      <category term="angularJs" scheme="https://okven.github.io/tags/angularJs/"/>
     
   </entry>
   
