@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-10T06:33:36.573Z</updated>
+  <updated>2019-01-10T07:18:18.184Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信小程序-图片宽100%显示不变形</title>
+    <link href="https://okven.github.io/2019/01/10/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%9B%BE%E7%89%87%E5%AE%BD100-%E6%98%BE%E7%A4%BA%E4%B8%8D%E5%8F%98%E5%BD%A2-1/"/>
+    <id>https://okven.github.io/2019/01/10/微信小程序-图片宽100-显示不变形-1/</id>
+    <published>2019-01-10T07:18:18.000Z</published>
+    <updated>2019-01-10T07:18:18.184Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序-图片宽100%显示不变形</title>
+    <link href="https://okven.github.io/2019/01/10/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%9B%BE%E7%89%87%E5%AE%BD100-%E6%98%BE%E7%A4%BA%E4%B8%8D%E5%8F%98%E5%BD%A2/"/>
+    <id>https://okven.github.io/2019/01/10/微信小程序-图片宽100-显示不变形/</id>
+    <published>2019-01-10T07:07:28.000Z</published>
+    <updated>2019-01-10T07:18:11.212Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;mode-属性&quot;&gt;&lt;a href=&quot;#mode-属性&quot; class=&quot;headerlink&quot; title=&quot;mode 属性&quot;&gt;&lt;/a&gt;mode 属性&lt;/h2&gt;&lt;p&gt;&lt;em&gt;使用mode属性 属性值设置为widthFix
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>微信小程序下拉刷新</title>
@@ -488,62 +528,6 @@
     
     
       <category term="烦人的广告" scheme="https://okven.github.io/tags/%E7%83%A6%E4%BA%BA%E7%9A%84%E5%B9%BF%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iphone时间格式的支持</title>
-    <link href="https://okven.github.io/2018/12/14/iphone%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%94%AF%E6%8C%81/"/>
-    <id>https://okven.github.io/2018/12/14/iphone时间格式的支持/</id>
-    <published>2018-12-14T08:31:27.000Z</published>
-    <updated>2018-12-14T08:33:14.658Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;今天带给大家的是 html中 safari的 new Date的时间格式支持问题&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;当前苹果的手机端对 时间格式支持不包括  “yyyy-mm-dd” ,
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="time" scheme="https://okven.github.io/tags/time/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ES6块级作用域的优点</title>
-    <link href="https://okven.github.io/2018/12/14/ES6%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E4%BC%98%E7%82%B9/"/>
-    <id>https://okven.github.io/2018/12/14/ES6块级作用域的优点/</id>
-    <published>2018-12-14T08:22:53.000Z</published>
-    <updated>2018-12-14T08:27:37.806Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;p&gt;我们都知道在ES6中新增加了一个块级作用域，块级作用域相对于ES5的全局与局部作用局的优势在哪？&lt;br&gt;———————–先看es5的全局 和 局部 作用域的弊端。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;一、内层变量可能会覆盖外层变量。-代码验证一下：&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="es6" scheme="https://okven.github.io/tags/es6/"/>
     
   </entry>
   

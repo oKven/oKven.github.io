@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[微信小程序-图片宽100%显示不变形]]></title>
+    <url>%2F2019%2F01%2F10%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%9B%BE%E7%89%87%E5%AE%BD100-%E6%98%BE%E7%A4%BA%E4%B8%8D%E5%8F%98%E5%BD%A2-1%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[微信小程序-图片宽100%显示不变形]]></title>
+    <url>%2F2019%2F01%2F10%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%9B%BE%E7%89%87%E5%AE%BD100-%E6%98%BE%E7%A4%BA%E4%B8%8D%E5%8F%98%E5%BD%A2%2F</url>
+    <content type="text"><![CDATA[mode 属性使用mode属性 属性值设置为widthFix ：宽度不变，高度自动变化，保持原图宽高比不变。 1&lt;image class='manImg' mode='widthFix' style="width:100%;" src='&#123;&#123;item.starItem.imageUrl&#125;&#125;' /&gt; bindLoad函数使用bindload绑定函数动态自适应。 当图片发布完毕时，调用这个函数实现动态自适应 12345678910111213141516//wxml&lt;image class='manImg' bindload="imageLoad" style="width:&#123;&#123;imgwidth&#125;&#125;rpx; height:&#123;&#123;imgheight &#125;&#125;rpx;" src='&#123;&#123;item.starItem.imageUrl&#125;&#125;' /&gt;//jsimageLoad: function(e) &#123; let _this=this; let width=e.detail.width, //获取图片真实宽度 height=e.detail.height, ratio=width/height; //图片的真实宽高比例 let viewWidth=500, //设置图片显示宽度， viewHeight=500/ratio; //计算的高度值 this.setData(&#123; imgwidth:viewWidth, imgheight:viewHeight &#125;)&#125; 推荐第一种：原因： 第二种实现方式每次图片发布完毕时都会执行一次通信（setData），营销页面渲染效率。第一种方式的优点在于 当宽度设置百分比100%时，宽度自然会自适应。换一种思路完全可以用外层的view去控制图片]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[微信小程序下拉刷新]]></title>
     <url>%2F2019%2F01%2F09%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0%2F</url>
     <content type="text"><![CDATA[微信小程序下拉刷新设置json配置 这个配置可以设置在app.json里面 或者 单页面 json 里面 ， 意思就是开始下拉刷新 1"enablePullDownRefresh": true onPullDownRefresh事件监听下拉动作处理函数如下 1234/*** 页面相关事件处理函数--监听用户下拉动作*/onPullDownRefresh: function () &#123;&#125; 应用实例 12345678910111213141516171819202122232425262728293031323334353637383940414243444546onPullDownRefresh: function () &#123; wx.setNavigationBarTitle(&#123; //在标题栏中显示加载提示语 title: '加载中' &#125;); wx.showNavigationBarLoading(); //在标题栏中显示加载图标 // 第一种处理方式 计时器结束加载动画 // setTimeout(function()&#123; wx.hideNavigationBarLoading(); //完成停止加载 // 动态设置导航条标题 wx.setNavigationBarTitle(&#123; title: 'Mascent' &#125;); wx.stopPullDownRefresh(); //停止下拉刷新 &#125;,800) // 第二种处理方式 HTTP请求完成时结束加载动画 // // 发送请求 wx.request(&#123; url: url, data: &#123; user_id: user_id, &#125;, method: 'POST', //请求成功的函数处理 success: function (res) &#123; app.globalData.balance = res.data.data.balance; //对数据进行更新 that.setData(&#123; balance: app.globalData.balance, &#125;); &#125;, fail: function (res) &#123; //请求失败的处理 console.log(res.data.msg); &#125;, complete: function () &#123; wx.hideNavigationBarLoading(); //完成停止加载 // 动态设置导航条标题 wx.setNavigationBarTitle(&#123; title: 'Mascent' &#125;); wx.stopPullDownRefresh(); //停止下拉刷新 &#125; &#125;)&#125;,]]></content>
@@ -339,7 +355,7 @@
   <entry>
     <title><![CDATA[newBolg]]></title>
     <url>%2F2018%2F12%2F14%2FnewBolg%2F</url>
-    <content type="text"><![CDATA[我的博客]]></content>
+    <content type="text"><![CDATA[我的个人博客：https://okven.github.io/]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
