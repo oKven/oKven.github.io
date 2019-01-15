@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-10T07:18:18.184Z</updated>
+  <updated>2019-01-15T06:18:44.240Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新的MySQL驱动模板和mysql-connector-java.8.0.12</title>
+    <link href="https://okven.github.io/2019/01/15/%E6%96%B0%E7%9A%84MySQL%E9%A9%B1%E5%8A%A8%E6%A8%A1%E6%9D%BF%E5%92%8Cmysql-connector-java-8-0-12/"/>
+    <id>https://okven.github.io/2019/01/15/新的MySQL驱动模板和mysql-connector-java-8-0-12/</id>
+    <published>2019-01-15T06:08:04.000Z</published>
+    <updated>2019-01-15T06:18:44.240Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;新的MySQL驱动&quot;&gt;&lt;a href=&quot;#新的MySQL驱动&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="mysql" scheme="https://okven.github.io/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="https://okven.github.io/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>微信小程序-图片宽100%显示不变形</title>
@@ -499,35 +525,6 @@
     
     
       <category term="input" scheme="https://okven.github.io/tags/input/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>烦人的广告</title>
-    <link href="https://okven.github.io/2018/12/14/%E7%83%A6%E4%BA%BA%E7%9A%84%E5%B9%BF%E5%91%8A/"/>
-    <id>https://okven.github.io/2018/12/14/烦人的广告/</id>
-    <published>2018-12-14T08:35:15.000Z</published>
-    <updated>2018-12-14T08:44:12.742Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;p&gt;让烦人的广告滚出我们的界面-码农的路上，纵情向前！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;1-现像&quot;&gt;&lt;a href=&quot;#1-现像&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="烦人的广告" scheme="https://okven.github.io/tags/%E7%83%A6%E4%BA%BA%E7%9A%84%E5%B9%BF%E5%91%8A/"/>
     
   </entry>
   

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[新的MySQL驱动模板和mysql-connector-java.8.0.12]]></title>
+    <url>%2F2019%2F01%2F15%2F%E6%96%B0%E7%9A%84MySQL%E9%A9%B1%E5%8A%A8%E6%A8%A1%E6%9D%BF%E5%92%8Cmysql-connector-java-8-0-12%2F</url>
+    <content type="text"><![CDATA[新的MySQL驱动之前链接本地数据库用了一个5.X版本的：如图 我的数据库版本 如图： run之后；一直报了一个链接不了数据库的错误，一番操作之后启用了8.X的版本；运行之后如图 ： 运行成功 mysql-connector-java.8.0.12本版下载 [https://pan.baidu.com/s/16ZkrIpEIrALBNfokx2BXsw：https://pan.baidu.com/s/16ZkrIpEIrALBNfokx2BXsw “百度盘”) 百度盘密码 vt9o 主程序123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263/* * To change this license header, choose License Headers in Project Properties. * To change this template file, choose Tools | Templates * and open the template in the editor. */package javaapplication4;import java.sql.Connection;import java.sql.DriverManager;import java.sql.ResultSet;import java.sql.SQLException;import java.util.Arrays;import java.sql.PreparedStatement;/** * * @author zhang */public class JavaApplication4 &#123; static String selectsql = null; static ResultSet retsult = null; public static final String url = "jdbc:mysql://localhost:3306/intnation"; public static final String name = "com.mysql.jdbc.Driver"; public static final String user = "root"; public static final String password = "xxxx"; public static Connection conn = null; public static PreparedStatement pst = null; /** * @param args the command line arguments */ public static void main(String[] args) &#123; int paraCount = 5; //读取参数数量 selectsql = "select * from tb_emp";//SQL语句 try &#123; Class.forName(name);//指定连接类型 conn = DriverManager.getConnection(url, user, password);//获取连接 pst = conn.prepareStatement(selectsql);//准备执行语句 &#125; catch (Exception e) &#123; e.printStackTrace(); &#125; String [] paras = new String [paraCount]; try &#123; retsult = pst.executeQuery();//执行语句，得到结果集 while (retsult.next()) &#123; for(int i = 0;i&lt;paraCount;i++)&#123; paras[i] = retsult.getString(i+2); &#125; System.out.println(Arrays.toString(paras)); &#125;//显示数据 retsult.close(); conn.close();//关闭连接 pst.close(); &#125; catch (SQLException e) &#123; e.printStackTrace(); &#125; &#125;&#125;]]></content>
+      <categories>
+        <category>mysql</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[微信小程序-图片宽100%显示不变形]]></title>
     <url>%2F2019%2F01%2F10%2F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%9B%BE%E7%89%87%E5%AE%BD100-%E6%98%BE%E7%A4%BA%E4%B8%8D%E5%8F%98%E5%BD%A2-1%2F</url>
     <content type="text"></content>
