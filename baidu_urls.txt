@@ -1,3 +1,4 @@
+https://okven.github.io/2019/01/18/小程序自定义组件/
 https://okven.github.io/2019/01/15/新的MySQL驱动模板和mysql-connector-java-8-0-12/
 https://okven.github.io/2019/01/10/微信小程序-图片宽100-显示不变形-1/
 https://okven.github.io/2019/01/10/微信小程序-图片宽100-显示不变形/

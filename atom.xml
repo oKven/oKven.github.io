@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-15T06:18:44.240Z</updated>
+  <updated>2019-01-18T03:15:20.567Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小程序自定义组件</title>
+    <link href="https://okven.github.io/2019/01/18/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6/"/>
+    <id>https://okven.github.io/2019/01/18/小程序自定义组件/</id>
+    <published>2019-01-18T03:06:16.000Z</published>
+    <updated>2019-01-18T03:15:20.567Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1、创建组件&quot;&gt;&lt;a href=&quot;#1、创建组件&quot; class=&quot;headerlink&quot; title=&quot;1、创建组件&quot;&gt;&lt;/a&gt;1、创建组件&lt;/h2&gt;&lt;p&gt;&lt;strong&gt; wxml wxss js json
+        
+      
+    
+    </summary>
+    
+      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="https://okven.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>新的MySQL驱动模板和mysql-connector-java.8.0.12</title>
@@ -499,32 +525,6 @@
     
     
       <category term="主题" scheme="https://okven.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>inputFile上传图片并显示</title>
-    <link href="https://okven.github.io/2018/12/17/inputFile%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%B9%B6%E6%98%BE%E7%A4%BA/"/>
-    <id>https://okven.github.io/2018/12/17/inputFile上传图片并显示/</id>
-    <published>2018-12-17T01:42:07.000Z</published>
-    <updated>2018-12-17T02:11:06.408Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;input-上传图片-并将上传的图片加载显示&quot;&gt;&lt;a href=&quot;#input-上传图片-并将上传的图片加载显示&quot; class=&quot;headerlink&quot; title=&quot;input 上传图片 并将上传的图片加载显示&quot;&gt;&lt;/a&gt;input 上传图片
-        
-      
-    
-    </summary>
-    
-      <category term="web前端" scheme="https://okven.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="input" scheme="https://okven.github.io/tags/input/"/>
     
   </entry>
   
