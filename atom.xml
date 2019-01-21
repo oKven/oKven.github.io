@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-18T03:15:20.567Z</updated>
+  <updated>2019-01-21T09:13:50.029Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>异步请求vue-resource与axios用法的详细比较</title>
+    <link href="https://okven.github.io/2019/01/21/%E5%BC%82%E6%AD%A5%E8%AF%B7%E6%B1%82vue-resource%E4%B8%8Eaxios%E7%94%A8%E6%B3%95%E7%9A%84%E8%AF%A6%E7%BB%86%E6%AF%94%E8%BE%83/"/>
+    <id>https://okven.github.io/2019/01/21/异步请求vue-resource与axios用法的详细比较/</id>
+    <published>2019-01-21T08:57:35.000Z</published>
+    <updated>2019-01-21T09:13:50.029Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="https://okven.github.io/categories/vue/"/>
+    
+    
+      <category term="http" scheme="https://okven.github.io/tags/http/"/>
+    
+  </entry>
   
   <entry>
     <title>小程序自定义组件</title>
@@ -499,32 +525,6 @@
     
     
       <category term="Angular js" scheme="https://okven.github.io/tags/Angular-js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小程序切换主题配色</title>
-    <link href="https://okven.github.io/2018/12/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%88%87%E6%8D%A2%E4%B8%BB%E9%A2%98%E9%85%8D%E8%89%B2/"/>
-    <id>https://okven.github.io/2018/12/17/小程序切换主题配色/</id>
-    <published>2018-12-17T01:46:47.000Z</published>
-    <updated>2018-12-17T02:01:51.529Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;相信大家一定会遇到小程序的主题配色问题，今天分享的内容主要就是如何根据自己的配置切换主题配色配图&quot;&gt;&lt;a href=&quot;#相信大家一定会遇到小程序的主题配色问题，今天分享的内容主要就是如何根据自己的配置切换主题配色配图&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="小程序" scheme="https://okven.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-      <category term="主题" scheme="https://okven.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
