@@ -1,3 +1,5 @@
+https://okven.github.io/2019/01/22/vue监听路由参数变化更新页面/
+https://okven.github.io/2019/01/22/vue中使用echart图表/
 https://okven.github.io/2019/01/21/异步请求vue-resource与axios用法的详细比较/
 https://okven.github.io/2019/01/18/小程序自定义组件/
 https://okven.github.io/2019/01/15/新的MySQL驱动模板和mysql-connector-java-8-0-12/
