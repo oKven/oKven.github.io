@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-01-22T08:10:28.730Z</updated>
+  <updated>2019-01-23T05:34:46.838Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue使用axios</title>
+    <link href="https://okven.github.io/2019/01/22/vue%E4%BD%BF%E7%94%A8axios/"/>
+    <id>https://okven.github.io/2019/01/22/vue使用axios/</id>
+    <published>2019-01-22T08:50:20.000Z</published>
+    <updated>2019-01-23T05:34:46.838Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;安装依赖包&quot;&gt;&lt;a href=&quot;#安装依赖包&quot; class=&quot;headerlink&quot; title=&quot;安装依赖包&quot;&gt;&lt;/a&gt;安装依赖包&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="https://okven.github.io/categories/vue/"/>
+    
+    
+      <category term="axios" scheme="https://okven.github.io/tags/axios/"/>
+    
+  </entry>
   
   <entry>
     <title>vue监听路由参数变化更新页面</title>
@@ -503,28 +529,6 @@
     
     
       <category term="props" scheme="https://okven.github.io/tags/props/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用哈希值匹配替换大量的if-else引用</title>
-    <link href="https://okven.github.io/2018/12/17/%E7%94%A8%E5%93%88%E5%B8%8C%E5%80%BC%E5%8C%B9%E9%85%8D%E6%9B%BF%E6%8D%A2%E5%A4%A7%E9%87%8F%E7%9A%84if-else%E5%BC%95%E7%94%A8/"/>
-    <id>https://okven.github.io/2018/12/17/用哈希值匹配替换大量的if-else引用/</id>
-    <published>2018-12-17T12:18:50.000Z</published>
-    <updated>2018-12-17T12:20:29.848Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;遇到需要写很多if…else…的情况，或许可以考虑如下的哈希字典匹配的方法，或者用状态模式实现&quot;&gt;&lt;a href=&quot;#遇到需要写很多if…else…的情况，或许可以考虑如下的哈希字典匹配的方法，或者用状态模式实现&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   

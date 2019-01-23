@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[vue使用axios]]></title>
+    <url>%2F2019%2F01%2F22%2Fvue%E4%BD%BF%E7%94%A8axios%2F</url>
+    <content type="text"><![CDATA[安装依赖包123npm i axios -S// 或者用淘宝的镜像cnpm i axios -S 配置1234567891011121314// main.jsimport axios from 'axios'import VueAxios from 'vue-axios'//设置全局配置 头部 域let axiosInstance = axios.create(&#123; baseURL: 'xxx.com', transformRequest: function (data) &#123; return Qs.stringify(data) &#125;, headers: &#123; 'Content-Type': 'application/json' &#125;&#125;);// 每次请求携带cookies信息 或者说可以是解决跨域axios.defaults.withCredentials = true;Vue.use(VueAxios, axiosInstance); 使用123456789101112131415161718192021222324252627282930313233343536373839// getthis.axios.get('/api/v1') // 设置公共域了 只需要拼接后面的字符串就可以了 .then(res =&gt; &#123; console.log(res.data.data[0]); _this.goods = res.data.data[0]; &#125;) .catch(res =&gt; &#123; console.log(res.data) &#125;) // post axios.post('/user', &#123; firstName: 'Fred', lastName: 'Flintstone' &#125;) .then(function (response) &#123; console.log(response); &#125;) .catch(function (response) &#123; console.log(response); &#125;); // 并发对个请求 function getUserAccount() &#123; return axios.get('/user/12345'); &#125; function getUserPermissions() &#123; return axios.get('/user/12345/permissions'); &#125; axios.all([getUserAccount(), getUserPermissions()]) .then(axios.spread(function (acct, perms) &#123; // Both requests are now complete &#125;));]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>axios</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[vue监听路由参数变化更新页面]]></title>
     <url>%2F2019%2F01%2F22%2Fvue%E7%9B%91%E5%90%AC%E8%B7%AF%E7%94%B1%E5%8F%82%E6%95%B0%E5%8F%98%E5%8C%96%E6%9B%B4%E6%96%B0%E9%A1%B5%E9%9D%A2%2F</url>
     <content type="text"><![CDATA[1、watch监听123456789watch: &#123; $route( to , from )&#123; console.log( to , from ) console.log(to.query.id) // to , from 分别表示从哪跳转到哪，都是一个对象 // to.path ( 表示的是要跳转到的路由的地址 eg: /home ); // to.query.id 提取id进行http请求数据更新页面 &#125;&#125; 我们打印了to form 看一下 query的id就是我们需要的参数 我们完全可以提取这个id来进行数据更新]]></content>
