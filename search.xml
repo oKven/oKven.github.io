@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[小程序内预览word文件]]></title>
+    <url>%2F2019%2F03%2F11%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%86%85%E9%A2%84%E8%A7%88word%E6%96%87%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[小程序内预览word文件 目前的话，我只找到了关于预览和临时文件和保存图片的思路，但是之后在找如何将word文件保存到手机本地用别的软件能打开的方式，但是由于小程序开放的问题，也是一直没得到解决。如果有大牛有思路的话，可以给小弟留言探讨一下。 那就先说说微信预览文件的思路 1234567891011121314151617181920212223// 根据小程序官方API提供wx.downloadFile(&#123; // e.target.dataset.name 是文件的地址 url: e.target.dataset.name, success(res) &#123; const filePath = res.tempFilePath; console.log(filePath) wx.openDocument(&#123; filePath, success(res) &#123; console.log('打开文档成功') &#125; &#125;) //保存 wx.saveFile(&#123; tempFilePath: filePath, success(res) &#123; const savedFilePath = res.savedFilePath; console.log(res) &#125; &#125;) &#125;&#125;)]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[vue使用axios]]></title>
     <url>%2F2019%2F01%2F22%2Fvue%E4%BD%BF%E7%94%A8axios%2F</url>
     <content type="text"><![CDATA[安装依赖包123npm i axios -S// 或者用淘宝的镜像cnpm i axios -S 配置1234567891011121314// main.jsimport axios from 'axios'import VueAxios from 'vue-axios'//设置全局配置 头部 域let axiosInstance = axios.create(&#123; baseURL: 'xxx.com', transformRequest: function (data) &#123; return Qs.stringify(data) &#125;, headers: &#123; 'Content-Type': 'application/json' &#125;&#125;);// 每次请求携带cookies信息 或者说可以是解决跨域axios.defaults.withCredentials = true;Vue.use(VueAxios, axiosInstance); 使用123456789101112131415161718192021222324252627282930313233343536373839// getthis.axios.get('/api/v1') // 设置公共域了 只需要拼接后面的字符串就可以了 .then(res =&gt; &#123; console.log(res.data.data[0]); _this.goods = res.data.data[0]; &#125;) .catch(res =&gt; &#123; console.log(res.data) &#125;) // post axios.post('/user', &#123; firstName: 'Fred', lastName: 'Flintstone' &#125;) .then(function (response) &#123; console.log(response); &#125;) .catch(function (response) &#123; console.log(response); &#125;); // 并发对个请求 function getUserAccount() &#123; return axios.get('/user/12345'); &#125; function getUserPermissions() &#123; return axios.get('/user/12345/permissions'); &#125; axios.all([getUserAccount(), getUserPermissions()]) .then(axios.spread(function (acct, perms) &#123; // Both requests are now complete &#125;));]]></content>
