@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://okven.github.io/"/>
-  <updated>2019-03-11T02:22:38.164Z</updated>
+  <updated>2019-04-25T08:34:22.151Z</updated>
   <id>https://okven.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue中下拉加载的原理</title>
+    <link href="https://okven.github.io/2019/04/25/Vue%E4%B8%AD%E4%B8%8B%E6%8B%89%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%8E%9F%E7%90%86/"/>
+    <id>https://okven.github.io/2019/04/25/Vue中下拉加载的原理/</id>
+    <published>2019-04-25T08:30:11.000Z</published>
+    <updated>2019-04-25T08:34:22.151Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;不管是Vue还是H5-下拉的加载的原理就是监听页面滚动触底&quot;&gt;&lt;a href=&quot;#不管是Vue还是H5-下拉的加载的原理就是监听页面滚动触底&quot; class=&quot;headerlink&quot; title=&quot;不管是Vue还是H5
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>小程序内预览word文件</title>
@@ -497,36 +519,6 @@
     
     
       <category term="css" scheme="https://okven.github.io/tags/css/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>angular中使用a标签的锚点</title>
-    <link href="https://okven.github.io/2018/12/19/angular%E4%B8%AD%E4%BD%BF%E7%94%A8a%E6%A0%87%E7%AD%BE%E7%9A%84%E9%94%9A%E7%82%B9/"/>
-    <id>https://okven.github.io/2018/12/19/angular中使用a标签的锚点/</id>
-    <published>2018-12-19T08:03:54.000Z</published>
-    <updated>2018-12-19T08:05:54.624Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;p&gt;在ng中，a标签中的href属性会自动的使用路由机制，最后的结果会被当成跳转的路由地址，具体的原因有待进一步考证，反正最后的结果就是上面的写法不生效。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;普通页面中的写法&lt;/em&gt;&lt;/p&gt;
-&lt;figure
-        
-      
-    
-    </summary>
-    
-      <category term="angular" scheme="https://okven.github.io/categories/angular/"/>
-    
-    
-      <category term="锚点" scheme="https://okven.github.io/tags/%E9%94%9A%E7%82%B9/"/>
     
   </entry>
   

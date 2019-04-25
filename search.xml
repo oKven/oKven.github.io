@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Vue中下拉加载的原理]]></title>
+    <url>%2F2019%2F04%2F25%2FVue%E4%B8%AD%E4%B8%8B%E6%8B%89%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%8E%9F%E7%90%86%2F</url>
+    <content type="text"><![CDATA[不管是Vue还是H5 下拉的加载的原理就是监听页面滚动触底 Vue中监听触底的逻辑 1234567891011121314151617181920212223242526272829methods:&#123; created() &#123; let _this = this; //变量scrollTop是滚动条滚动时，距离顶部的距离 var scrollTop = document.documentElement.scrollTop || document.body.scrollTop; //变量windowHeight是可视区的高度 var windowHeight = document.documentElement.clientHeight || document.body.clientHeight; //变量scrollHeight是滚动条的总高度 var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight; //滚动条到底部的条件 let h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; //浏览器高度 console.log(h) if (scrollTop + windowHeight == scrollHeight) &#123; console.log( "距顶部" + scrollTop + "可视区高度" + windowHeight + "滚动条总高度" + scrollHeight ); // 下面就是需要你完成的事情 // 比如说: 写后台加载数据的函数 _this.onLoad(); // 比如说: 触底提示或者警告 &#125; &#125;&#125;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[小程序内预览word文件]]></title>
     <url>%2F2019%2F03%2F11%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%86%85%E9%A2%84%E8%A7%88word%E6%96%87%E4%BB%B6%2F</url>
     <content type="text"><![CDATA[小程序内预览word文件 目前的话，我只找到了关于预览和临时文件和保存图片的思路，但是之后在找如何将word文件保存到手机本地用别的软件能打开的方式，但是由于小程序开放的问题，也是一直没得到解决。如果有大牛有思路的话，可以给小弟留言探讨一下。 那就先说说微信预览文件的思路 1234567891011121314151617181920212223// 根据小程序官方API提供wx.downloadFile(&#123; // e.target.dataset.name 是文件的地址 url: e.target.dataset.name, success(res) &#123; const filePath = res.tempFilePath; console.log(filePath) wx.openDocument(&#123; filePath, success(res) &#123; console.log('打开文档成功') &#125; &#125;) //保存 wx.saveFile(&#123; tempFilePath: filePath, success(res) &#123; const savedFilePath = res.savedFilePath; console.log(res) &#125; &#125;) &#125;&#125;)]]></content>
